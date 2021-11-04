@@ -2,21 +2,28 @@
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content>
+<meta name=description content="Git 笔记 #  给不同项目配置不同 Git 账号 #  给 Git 设置全局账号
+git config --global user.name &#34;Jianghu Wiki&#34; git config --global user.email &#34;jianghu-wiki@lioil.com&#34; 在某个项目下进行特殊设置
+git config user.name &#34;Jianghu Wiki 2&#34; git config user.email &#34;jianghu-wiki-2@lioil.com&#34; 查看该项目配置
+git config --list 输出如下信息
+... user.name=Jianghu Wiki user.email=jianghu-wiki@lioil.com ... user.name=Jianghu Wiki 2 user.email=jianghu-wiki-2@lioil.com ... 有多个配置时将使用下面的配置">
 <meta name=theme-color content="#FFFFFF">
-<meta name=color-scheme content="light dark"><meta property="og:title" content="Categories">
-<meta property="og:description" content>
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://wiki.lioil.live/categories/"><meta property="og:site_name" content="浆糊 Wiki">
-<title>Categories | 浆糊 Wiki</title>
+<meta name=color-scheme content="light dark"><meta property="og:title" content="Git 笔记">
+<meta property="og:description" content="Git 笔记 #  给不同项目配置不同 Git 账号 #  给 Git 设置全局账号
+git config --global user.name &#34;Jianghu Wiki&#34; git config --global user.email &#34;jianghu-wiki@lioil.com&#34; 在某个项目下进行特殊设置
+git config user.name &#34;Jianghu Wiki 2&#34; git config user.email &#34;jianghu-wiki-2@lioil.com&#34; 查看该项目配置
+git config --list 输出如下信息
+... user.name=Jianghu Wiki user.email=jianghu-wiki@lioil.com ... user.name=Jianghu Wiki 2 user.email=jianghu-wiki-2@lioil.com ... 有多个配置时将使用下面的配置">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://wiki.lioil.live/wiki/c/about-git/"><meta property="article:section" content="wiki">
+<meta property="article:modified_time" content="2021-11-04T18:56:16+08:00"><meta property="og:site_name" content="浆糊 Wiki">
+<title>Git 笔记 | 浆糊 Wiki</title>
 <link rel=manifest href=/manifest.json>
 <link rel=icon href=/favicon.png type=image/x-icon>
-<link rel=alternate hreflang=en href=https://wiki.lioil.live/en/categories/ title=Categories>
 <link rel=stylesheet href=/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css integrity="sha256-RhgbyTN1upMgJudTs3xA5v+LsWqe93DHi8xmPkV3sbo=" crossorigin=anonymous>
 <script defer src=/flexsearch.min.js></script>
 <script defer src=/zh.search.min.349eb8ac41f0a79c93ebf19f90997c8d6219248e38c673351f15799a2a0e2512.js integrity="sha256-NJ64rEHwp5yT6/GfkJl8jWIZJI44xnM1HxV5mioOJRI=" crossorigin=anonymous></script>
 <script defer src=/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js integrity="sha256-b2+Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC+NdcPIvZhzk=" crossorigin=anonymous></script>
-<link rel=alternate type=application/rss+xml href=https://wiki.lioil.live/categories/index.xml title="浆糊 Wiki">
 </head>
 <body dir=ltr>
 <input type=checkbox class="hidden toggle" id=menu-control>
@@ -45,7 +52,7 @@
 </label>
 <ul>
 <li>
-<a href=https://wiki.lioil.live/en/categories/>
+<a href=https://wiki.lioil.live/en/>
 English
 </a>
 </li>
@@ -160,15 +167,15 @@ English
 </ul>
 </li>
 <li>
-<input type=checkbox id=section-8c002ea9aa11dc8d8455fbd491faf5cb class=toggle>
+<input type=checkbox id=section-8c002ea9aa11dc8d8455fbd491faf5cb class=toggle checked>
 <label for=section-8c002ea9aa11dc8d8455fbd491faf5cb class="flex justify-between">
 <a role=button>折腾代码</a>
 </label>
 <ul>
 <li>
-<input type=checkbox id=section-1edd43bc8e745c469c665a5e7fdbd862 class=toggle>
+<input type=checkbox id=section-1edd43bc8e745c469c665a5e7fdbd862 class=toggle checked>
 <label for=section-1edd43bc8e745c469c665a5e7fdbd862 class="flex justify-between">
-<a href=https://wiki.lioil.live/wiki/c/about-git/>Git 笔记</a>
+<a href=https://wiki.lioil.live/wiki/c/about-git/ class=active>Git 笔记</a>
 </label>
 </li>
 <li>
@@ -201,47 +208,76 @@ English
 <label for=menu-control>
 <img src=/svg/menu.svg class=book-icon alt=Menu>
 </label>
-<strong>Categories</strong>
+<strong>Git 笔记</strong>
 <label for=toc-control>
 <img src=/svg/toc.svg class=book-icon alt="Table of Contents">
 </label>
 </div>
 <aside class="hidden clearfix">
-<nav>
+<nav id=TableOfContents>
 <ul>
-<li class=book-section-flat>
-<strong>Categories</strong>
+<li><a href=#git-笔记>Git 笔记</a>
 <ul>
-</ul>
-</li>
-<li class=book-section-flat>
-<strong>Tags</strong>
-<ul>
+<li><a href=#给不同项目配置不同-git-账号>给不同项目配置不同 Git 账号</a></li>
 </ul>
 </li>
 </ul>
 </nav>
 </aside>
 </header>
+<article class=markdown><h1 id=git-笔记>
+Git 笔记
+<a class=anchor href=#git-%e7%ac%94%e8%ae%b0>#</a>
+</h1>
+<h2 id=给不同项目配置不同-git-账号>
+给不同项目配置不同 Git 账号
+<a class=anchor href=#%e7%bb%99%e4%b8%8d%e5%90%8c%e9%a1%b9%e7%9b%ae%e9%85%8d%e7%bd%ae%e4%b8%8d%e5%90%8c-git-%e8%b4%a6%e5%8f%b7>#</a>
+</h2>
+<p>给 Git 设置全局账号</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>git config --global user.name <span style=color:#e6db74>&#34;Jianghu Wiki&#34;</span>
+git config --global user.email <span style=color:#e6db74>&#34;jianghu-wiki@lioil.com&#34;</span>
+</code></pre></div><p>在某个项目下进行特殊设置</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>git config user.name <span style=color:#e6db74>&#34;Jianghu Wiki 2&#34;</span>
+git config user.email <span style=color:#e6db74>&#34;jianghu-wiki-2@lioil.com&#34;</span>
+</code></pre></div><p>查看该项目配置</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>git config --list
+</code></pre></div><p>输出如下信息</p>
+<div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>...
+user.name<span style=color:#f92672>=</span>Jianghu Wiki
+user.email<span style=color:#f92672>=</span>jianghu-wiki@lioil.com
+...
+user.name<span style=color:#f92672>=</span>Jianghu Wiki <span style=color:#ae81ff>2</span>
+user.email<span style=color:#f92672>=</span>jianghu-wiki-2@lioil.com
+...
+</code></pre></div><p>有多个配置时将使用下面的配置</p>
+</article>
 <footer class=book-footer>
 <div class="flex flex-wrap justify-between">
+<div><a class="flex align-center" href=https://github.com/smilonely/Strange-Book/commit/756c6bc61ae3bba46eb1729f8c902aa74f8bbd94 title="最后修改者 Dangel | November 4, 2021" target=_blank rel=noopener>
+<img src=/svg/calendar.svg class=book-icon alt=Calendar>
+<span>November 4, 2021</span>
+</a>
+</div>
+<div>
+<a class="flex align-center" href=https://github.com/smilonely/Strange-Book/edit/master/content.zh/wiki/c/about%20git.md target=_blank rel=noopener>
+<img src=/svg/edit.svg class=book-icon alt=Edit>
+<span>编辑本页</span>
+</a>
+</div>
 </div>
 <script>(function(){function a(c){const a=window.getSelection(),b=document.createRange();b.selectNodeContents(c),a.removeAllRanges(),a.addRange(b)}document.querySelectorAll("pre code").forEach(b=>{b.addEventListener("click",function(c){a(b.parentElement),navigator.clipboard&&navigator.clipboard.writeText(b.parentElement.textContent)})})})()</script>
 </footer>
+<div class=book-comments>
+</div>
 <label for=menu-control class="hidden book-menu-overlay"></label>
 </div>
 <aside class=book-toc>
 <div class=book-toc-content>
-<nav>
+<nav id=TableOfContents>
 <ul>
-<li class=book-section-flat>
-<strong>Categories</strong>
+<li><a href=#git-笔记>Git 笔记</a>
 <ul>
-</ul>
-</li>
-<li class=book-section-flat>
-<strong>Tags</strong>
-<ul>
+<li><a href=#给不同项目配置不同-git-账号>给不同项目配置不同 Git 账号</a></li>
 </ul>
 </li>
 </ul>
