@@ -1,10 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>欢迎 on 浆糊 Wiki</title><link>https://wiki.lioil.live/</link><description>Recent content in 欢迎 on 浆糊 Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><atom:link href="https://wiki.lioil.live/index.xml" rel="self" type="application/rss+xml"/><item><title>Git 笔记</title><link>https://wiki.lioil.live/c/about-git-%E5%89%AF%E6%9C%AC/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/c/about-git-%E5%89%AF%E6%9C%AC/</guid><description>Git 笔记 # 给不同项目配置不同 Git 账号 # 给 Git 设置全局账号
-git config --global user.name &amp;#34;Jianghu Wiki&amp;#34; git config --global user.email &amp;#34;jianghu-wiki@lioil.com&amp;#34; 在某个项目下进行特殊设置
-git config user.name &amp;#34;xiaojia&amp;#34; git config user.email &amp;#34;xiaojia@jd.com&amp;#34;</description></item><item><title>Git 笔记</title><link>https://wiki.lioil.live/c/about-git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/c/about-git/</guid><description>Git 笔记 # 给不同项目配置不同 Git 账号 # 给 Git 设置全局账号
-git config --global user.name &amp;#34;Jianghu Wiki&amp;#34; git config --global user.email &amp;#34;jianghu-wiki@lioil.com&amp;#34; 在某个项目下进行特殊设置
-git config user.name &amp;#34;Jianghu Wiki 2&amp;#34; git config user.email &amp;#34;jianghu-wiki-2@lioil.com&amp;#34; 查看该项目配置
-git config --list 输出如下信息
-... user.name=Jianghu Wiki user.email=jianghu-wiki@lioil.com ... user.name=Jianghu Wiki 2 user.email=jianghu-wiki-2@lioil.com ... 有多个配置时将使用下面的配置</description></item><item><title>QQ 号码规则</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/tencent-qq-number-rule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/tencent-qq-number-rule/</guid><description>QQ 号码规则 # 原始协议地址： zc.qq.com
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>商业公司服务协议 on 浆糊 Wiki</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/</link><description>Recent content in 商业公司服务协议 on 浆糊 Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><atom:link href="https://wiki.lioil.live/dp/i-dont-wanna-read-it/index.xml" rel="self" type="application/rss+xml"/><item><title>QQ 号码规则</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/tencent-qq-number-rule/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/tencent-qq-number-rule/</guid><description>QQ 号码规则 # 原始协议地址： zc.qq.com
 所属公司名称：腾讯公司 最后编辑时间：2019-04-22 协议是否有效：是 本内容编辑者：Dangel
 需要注意 # QQ 号所有权属于腾讯。
 QQ 号的使用权仅授予最初的注册人。
@@ -54,7 +48,7 @@ QQ 号的使用权仅授予最初的注册人。
 你发布的内容设置成公开时(即默认状态)，那么代表你允许其他人复制或传播该内容。
 如果你违规严重，腾讯可以不经过你同意删除你的好友。
 你发布的内容，可能会被第三方复制、转载、修改，腾讯对此不予负责。
-你不能做 # 不能发送「邀请好友拆礼盒」、「集赞有奖励」等分享后有奖励的内容。</description></item><item><title>sample</title><link>https://wiki.lioil.live/cp/tools/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/cp/tools/</guid><description/></item><item><title>sample</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/sample/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/sample/</guid><description>标题 # 原始协议地址： sample.com
+你不能做 # 不能发送「邀请好友拆礼盒」、「集赞有奖励」等分享后有奖励的内容。</description></item><item><title>sample</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/sample/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/sample/</guid><description>标题 # 原始协议地址： sample.com
 所属公司名称：才华有限公司 最后编辑时间：2020-01-01 协议是否有效：是 本内容编辑者：Dangel 其他说明条目：内容
 老生常谈 # 违法违规的不能做。
 服务方可在你违反协议、违法违规时对你进行处罚或终止服务。
@@ -68,7 +62,7 @@ QQ 号的使用权仅授予最初的注册人。
 内容
 你应当做 # 内容
 内容
-你不能做 # 内容</description></item><item><title>sample</title><link>https://wiki.lioil.live/sample/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/sample/</guid><description/></item><item><title>“学习强国”学习平台服务协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/xuexi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/xuexi/</guid><description>“学习强国”学习平台服务协议 # 原始协议地址：未知（需从 App 进入）
+你不能做 # 内容</description></item><item><title>“学习强国”学习平台服务协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/xuexi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/xuexi/</guid><description>“学习强国”学习平台服务协议 # 原始协议地址：未知（需从 App 进入）
 所属机构名称：中共中央宣传部宣传舆情研究中心 最后编辑时间：2020-04-13 协议是否有效：是 本内容编辑者：Dangel
 老生常谈 # 你不能有违法违规、侵权、超允许范围使用本服务行为。
 服务方有权在你违反协议、违法违规时限制或终止服务。
@@ -118,17 +112,7 @@ QQ 号的使用权仅授予最初的注册人。
 你上传的内容以及操作，可被自动同步至头条的关联公司软件及网站。
 头条会根据你的使用偏好来向你推送定制化广告，你可以选择停止广告定制化。
 你因广告进行的行为，头条免责。
-你同意，授权头条及其关联公司在全球范围，免费、可再许可、多渠道地，在任何宣传、推广、或其他营销中使用你所上传的各种内容。</description></item><item><title>使用 Hugo 搭建个人 Wiki</title><link>https://wiki.lioil.live/c/build-a-wiki-with-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/c/build-a-wiki-with-hugo/</guid><description>#</description></item><item><title>使用 Hugo 搭建个人博客</title><link>https://wiki.lioil.live/c/build-a-blog-with-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/c/build-a-blog-with-hugo/</guid><description>使用 Hugo 搭建个人博客 # 你将会获得 # 一个轻巧、漂亮、自定义而且容易部署的静态网页博客；依托于 Github Pages 服务，整个过程完全免费。 适用于 Windows、Linux、FreeBSD 和 macOS。
-博客的网页（文章内容）使用 Markdown 语法撰写生成，在一般情况下网站的每次生成部署，都需要一台已经做好环境配置和相关准备的电脑。也可以利用 Github Actions 达到只需一个浏览器、随写随更新的效果。
-关于 Hugo # Hugo 是由 Go 语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
-Hugo 不仅仅可以用来搭建博客，还有可以搭建公司主页、个人简历、项目文档等等非常多类别的主题（Themes，我习惯称之为主题）。你也可以编写或修改主题来搭建自己想要的网站。
-Hugo 主页
-Hugo Documentation
-Hugo 中文文档
-准备 # Git # 过程中需要用到 Git 环境，也可以用 GitHub Desktop。本文以 Git 为例。
-Github # 注册一个 Github 帐号。
-确定主题（Themes） # 与 Hexo（另一个静态网页生成工具） 不同的是，Hugo 没有附带默认主题，需要另外加入主题否则无法生成网站。在以下网站或通过搜索引擎、Github 找到一个你喜欢的主题。
-Hugo Themes</description></item><item><title>冲浪导航</title><link>https://wiki.lioil.live/s/sdir/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/s/sdir/</guid><description>table th:first-of-type { min-width: 56px; } table th:nth-of-type(2) { width: 35%; } table th:nth-of-type(3) { width: 57%; } 信息聚合 # FEEEED.in 飞叮：全球设计资讯聚合 今日热榜 国内媒体、社交平台热点瀑布流聚合 摸摸鱼热榜 国内媒体、社交平台热点聚合 鱼塘热榜 国内媒体、社交平台热点聚合 后续 持续追踪新闻热点 综合 # 澎湃新闻 澎湃新闻 端傳媒 端传媒 部分付费 华尔街日报中文网 华尔街日报中文网 BBC News 中文 BBC News 中文 FT 中文网 金融时报中文 需付费 纽约时报中文网 纽约时报中文网 Associated Press 美联社 Reuters 路透社 BBC BBC Financial Times 金融时报 需付费 The Wall Street Journal 华尔街日报 个人博客 # 编程随想的博客 编程随想的博客 数字移民 数字移民：肉体和精神，总要有一个是自由的。 月光博客 月光博客：关注互联网和搜索引擎的IT科技博客 高海鹏老师的博客 高海鹏老师的博客：一个热爱网络的小学教师 Josh Worth Art &amp;amp; Design Josh Worth 的关于艺术和设计的博客 roustar31 的博客 roustar31 的博客 阁楼 阁楼：我写作是为了光阴流逝使我心安 夜阑静 夜阑静的博客 老 D 博客 老 D 博客：关注谷歌服务，分享互联网精神！ 時間停止 Frost 的博客 博客联盟 新博客联盟 收录了中国各地的博客 中国博客联盟 老博客联盟 收录了中国各地的博客 💔 Melody Fallen 脑子一热建博客的结果 艺术 # 优设网 设计文章、教程、素材 Arting365 创意内容 TOPYS.</description></item><item><title>工具导航</title><link>https://wiki.lioil.live/s/tdir/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/s/tdir/</guid><description>table th:first-of-type { min-width: 56px; } table th:nth-of-type(2) { width: 35%; } table th:nth-of-type(3) { width: 57%; } 找东西 # 快搜 搜索引擎集合 鸠摩搜索 找电子书 异次元软件世界 分享好用的软件 小众软件 分享好用的软件 GIPHY 找表情动图 mp3Clan MP3 音乐资源 Magi Ai 搜索引擎，尝试在搜索时直接返回答案 文字&amp;amp;语言 # AnyTextEditor 文字工具集合 英文为主 中华诗词 收录了从先秦开始六万余首诗词 如是说 找类似的名言诗句 近邻词汇检索 查找中文近邻词 押韵灵感 寻找押韵词句 💔 王斌给您对对连 智能对对联 写作猫 帮你改文章 在线工具 # Newsletters spam test by mail 测试你发出邮件的垃圾邮件匹配度 Imgflip 表情包制作工具 savefrom.</description></item><item><title>微博服务使用协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/weibo-protocol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/weibo-protocol/</guid><description>微博服务使用协议 # 原始协议地址： weibo.com
+你同意，授权头条及其关联公司在全球范围，免费、可再许可、多渠道地，在任何宣传、推广、或其他营销中使用你所上传的各种内容。</description></item><item><title>微博服务使用协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/weibo-protocol/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/weibo-protocol/</guid><description>微博服务使用协议 # 原始协议地址： weibo.com
 所属公司名称：新浪微博 最后编辑时间：2019-01-01 协议是否有效：是 本内容编辑者：Dangel
 老生常谈 # 你不能有违法违规、侵权、超允许范围使用本服务行为。
 服务方有权在你违反协议、违法违规时限制或终止服务。
@@ -145,14 +129,7 @@ Hugo Themes</description></item><item><title>冲浪导航</title><link>https://w
 组织机构账号除了遵守本条款外，还应同时接受上级主管部门的同一管理。
 微博账号个性域名一经提交后就无法更改。
 微博服务在你主动注销，或被终止之后，数据无法返还。
-你同意微博方以各种方式投放任何商业信息，包括页面投放、电子邮件、私信等。</description></item><item><title>我们该如何看新闻［转载］</title><link>https://wiki.lioil.live/s/how-should-we-read-the-news/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/s/how-should-we-read-the-news/</guid><description>英美主流媒体盘点：为什么我不建议你看 VOA，CNN # 本文更新于 2021 年 7 月。
-第一篇上：英文主流媒体盘点 ｜ 综合类媒体 （本文） 第一篇下：为什么我不建议你看 VOA、CNN，英美主流媒体的立场、政治偏向、及可信度分析 （本文） 第二篇： 英文主流媒体盘点 ｜ 科技类媒体 第三篇：英文主流媒体盘点｜财经类媒体 第四篇：哪些英文付费媒体值得订阅 如果想了解为什么 VOA CNN 不是恰当的英文资源内容，请直接下拉至下半段： 英美主流媒体的立场、政治偏向、及可信度
-第一篇上 英文主流综合类媒体盘点 # 0. 简述 # 本来这是一篇介绍 Apple news+ 中有哪些值得看的杂志。但是在查找资料的时候发现，竟然没有较新的文章介绍英美主流媒体，索性自己写了一篇。在介绍各个媒体的时候，会参考 YouTube 的做法，提及其资助方。同时会参考多方调查，给出各个媒体的立场。
-1. 通讯社 # 通讯社是采集新闻并为报纸、杂志、广播、电视等提供新闻资讯的机构。世界范围内最大的是 美联社、 路透社 与 法新社。通讯社提供的新闻公认的是新闻，而非评论。几乎所有的主流意见也都认为三大通讯社的新闻总体上中立，没有特别偏向。
-The Associated Press
-美联社成立 1846 年，已有 170 年的历史，获得 52 项普利策奖项。美联社官网并不直接为普通用户提供服务。想要及时获得中立的新闻，可以选择关注他们的社交媒体账号，或者使用他们的 App 。
-资助方：独立的非盈利组织 立场倾向：中立 可信度：高 官方渠道： Twitter | App Store | Google Play Reuters</description></item><item><title>抖音是如何破坏音乐的［转载］</title><link>https://wiki.lioil.live/s/how-douyin-destroys-the-music/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/s/how-douyin-destroys-the-music/</guid><description>周深混音师告诉你抖音是如何摧毁音乐动态的 # .aspect-ratio { position: relative; width: 100%; height: 0; padding-bottom: 75%; } .aspect-ratio iframe { position: absolute; width: 100%; height: 100%; left: 0; top: 0; } 视频作者：李大脑袋
-原链接： bilibili.com</description></item><item><title>百度网盘服务协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/baidu-disk-duty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/baidu-disk-duty/</guid><description>百度网盘服务协议 # 原始协议地址： yun.baidu.com
+你同意微博方以各种方式投放任何商业信息，包括页面投放、电子邮件、私信等。</description></item><item><title>百度网盘服务协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/baidu-disk-duty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/baidu-disk-duty/</guid><description>百度网盘服务协议 # 原始协议地址： yun.baidu.com
 所属公司名称：百度公司 最后编辑时间：2020-04-13 协议是否有效：是 本内容编辑者：Dangel
 老生常谈 # 你不能有违法违规、侵权、超允许范围使用本服务行为。
 服务方有权在你违反协议、违法违规时限制或终止服务。
@@ -211,16 +188,7 @@ The Associated Press
 腾讯提高服务收费或将免费转为收费时，会提前进行通知或公告，你不同意可以不用。
 腾讯降低服务收费或将收费转为免费时，以前收的一概不退。
 腾讯不保证，使用过程中网络信息的真实性、适用性、合法性。
-你应当做 # 你应当保证你设置的昵称头像，参与的 QQ 、微信群等的名称、图片等信息完全合法合规。</description></item><item><title>艺术导航</title><link>https://wiki.lioil.live/a/adir/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/a/adir/</guid><description>table th:first-of-type { min-width: 56px; } table th:nth-of-type(2) { width: 35%; } table th:nth-of-type(3) { width: 57%; } 设计&amp;amp;创意 # Behance 设计分享交流平台 平面、插画居多 Dribbble 设计分享交流平台 UI、动效居多 Pinterest Pinterest Fubiz Media 设计分享交流平台 站酷 站酷 花瓣网 花瓣网 Webデザインリンク集 网站设计项目集 Web Design Museum 网站设计博物馆 Tencent ISUX Design 腾讯社交用户体验设计主页 logopond 图标设计集 奖项&amp;amp;活动 # awwwards.</description></item><item><title>隐私选项检查</title><link>https://wiki.lioil.live/dp/pribacy-checkup/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/pribacy-checkup/</guid><description>隐私 / Cookies 设置传送门 # TrustArc（众多公司加入）
-Apple 管理你的隐私
-Microsoft 隐私
-Google 隐私设置检查
-Twitter 个性化与数据
-腾讯广告个性化管理
-……
-帐号注销传送门 # 淘宝网站自动服务
-百度帐号登录
-……</description></item><item><title>变更日志</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/change-log/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/change-log/</guid><description>变更日志 # #7・2020-04-13 # 优化内容及条目。
+你应当做 # 你应当保证你设置的昵称头像，参与的 QQ 、微信群等的名称、图片等信息完全合法合规。</description></item><item><title>变更日志</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/change-log/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/change-log/</guid><description>变更日志 # #7・2020-04-13 # 优化内容及条目。
 加入「百度网盘服务协议」、「微博服务使用协议」、「『学习强国』学习平台服务协议」。
 #6・2019-05-28 # 优化内容及条目。
 #5・2019-05-09 # 优化内容，将老生长谈的东西整合进「老生常谈」。
