@@ -2,39 +2,39 @@
 <head>
 <meta charset=utf-8>
 <meta name=viewport content="width=device-width,initial-scale=1">
-<meta name=description content="使用 Hugo 搭建个人博客 #  你将会获得 #  一个轻巧、漂亮、自定义而且容易部署的静态网页博客；依托于 Github Pages 服务，整个过程完全免费。 适用于 Windows、Linux、FreeBSD 和 macOS。
-博客的网页（文章内容）使用 Markdown 语法撰写生成，在一般情况下网站的每次生成部署，都需要一台已经做好环境配置和相关准备的电脑。也可以利用 Github Actions 达到只需一个浏览器、随写随更新的效果。
+<meta name=description content="使用 Hugo 搭建个人博客 #  你将会获得 #  一个轻巧、漂亮、自定义而且容易部署的静态网页博客；依托于 GitHub Pages 服务，整个过程完全免费。 适用于 Windows、Linux、FreeBSD 和 macOS。
+博客的网页（文章内容）使用 Markdown 语法撰写生成，在一般情况下网站的每次生成部署，都需要一台已经做好环境配置和相关准备的电脑。也可以利用 GitHub Actions 达到只需一个浏览器、随写随更新的效果。
 关于 Hugo #  Hugo 是由 Go 语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo 不仅仅可以用来搭建博客，还有可以搭建公司主页、个人简历、项目文档等等非常多类别的主题（Themes，我习惯称之为主题）。你也可以编写或修改主题来搭建自己想要的网站。
  Hugo 主页
  Hugo Documentation
  Hugo 中文文档
 准备 #  Git #  过程中需要用到 Git 环境，也可以用 GitHub Desktop。本文以 Git 为例。
-Github #  注册一个 Github 帐号。
-确定主题（Themes） #  与 Hexo（另一个静态网页生成工具） 不同的是，Hugo 没有附带默认主题，需要另外加入主题否则无法生成网站。在以下网站或通过搜索引擎、Github 找到一个你喜欢的主题。
+GitHub #  注册一个 GitHub 帐号。
+确定主题（Themes） #  与 Hexo（另一个静态网页生成工具） 不同的是，Hugo 没有附带默认主题，需要另外加入主题否则无法生成网站。在以下网站或通过搜索引擎、GitHub 找到一个你喜欢的主题。
  Hugo Themes">
 <meta name=theme-color content="#FFFFFF">
 <meta name=color-scheme content="light dark"><meta property="og:title" content="使用 Hugo 搭建个人博客">
-<meta property="og:description" content="使用 Hugo 搭建个人博客 #  你将会获得 #  一个轻巧、漂亮、自定义而且容易部署的静态网页博客；依托于 Github Pages 服务，整个过程完全免费。 适用于 Windows、Linux、FreeBSD 和 macOS。
-博客的网页（文章内容）使用 Markdown 语法撰写生成，在一般情况下网站的每次生成部署，都需要一台已经做好环境配置和相关准备的电脑。也可以利用 Github Actions 达到只需一个浏览器、随写随更新的效果。
+<meta property="og:description" content="使用 Hugo 搭建个人博客 #  你将会获得 #  一个轻巧、漂亮、自定义而且容易部署的静态网页博客；依托于 GitHub Pages 服务，整个过程完全免费。 适用于 Windows、Linux、FreeBSD 和 macOS。
+博客的网页（文章内容）使用 Markdown 语法撰写生成，在一般情况下网站的每次生成部署，都需要一台已经做好环境配置和相关准备的电脑。也可以利用 GitHub Actions 达到只需一个浏览器、随写随更新的效果。
 关于 Hugo #  Hugo 是由 Go 语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo 不仅仅可以用来搭建博客，还有可以搭建公司主页、个人简历、项目文档等等非常多类别的主题（Themes，我习惯称之为主题）。你也可以编写或修改主题来搭建自己想要的网站。
  Hugo 主页
  Hugo Documentation
  Hugo 中文文档
 准备 #  Git #  过程中需要用到 Git 环境，也可以用 GitHub Desktop。本文以 Git 为例。
-Github #  注册一个 Github 帐号。
-确定主题（Themes） #  与 Hexo（另一个静态网页生成工具） 不同的是，Hugo 没有附带默认主题，需要另外加入主题否则无法生成网站。在以下网站或通过搜索引擎、Github 找到一个你喜欢的主题。
+GitHub #  注册一个 GitHub 帐号。
+确定主题（Themes） #  与 Hexo（另一个静态网页生成工具） 不同的是，Hugo 没有附带默认主题，需要另外加入主题否则无法生成网站。在以下网站或通过搜索引擎、GitHub 找到一个你喜欢的主题。
  Hugo Themes">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://wiki.lioil.live/c/build-a-blog-with-hugo/"><meta property="article:section" content="c">
-<meta property="article:modified_time" content="2021-11-04T23:38:05+08:00"><meta property="og:site_name" content="浆糊 Wiki">
+<meta property="article:modified_time" content="2021-11-23T21:03:27+08:00"><meta property="og:site_name" content="浆糊 Wiki">
 <title>使用 Hugo 搭建个人博客 | 浆糊 Wiki</title>
 <link rel=manifest href=/manifest.json>
 <link rel=icon href=/favicon.png type=image/x-icon>
 <link rel=stylesheet href=/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css integrity="sha256-RhgbyTN1upMgJudTs3xA5v+LsWqe93DHi8xmPkV3sbo=" crossorigin=anonymous>
 <script defer src=/flexsearch.min.js></script>
-<script defer src=/zh.search.min.e72f49ace8d6bf45ba9dc638713ee4d52803888013c09ff4e06eff33c8c0b354.js integrity="sha256-5y9JrOjWv0W6ncY4cT7k1SgDiIATwJ/04G7/M8jAs1Q=" crossorigin=anonymous></script>
+<script defer src=/zh.search.min.f55e8d8c6decf807b324b58f283ee577198b15daee6215f52e6a40356eb14645.js integrity="sha256-9V6NjG3s+AezJLWPKD7ldxmLFdruYhX1LmpANW6xRkU=" crossorigin=anonymous></script>
 <script defer src=/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js integrity="sha256-b2+Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC+NdcPIvZhzk=" crossorigin=anonymous></script>
 </head>
 <body dir=ltr>
@@ -109,6 +109,9 @@ English
 <a role=button>填饱肚子</a>
 </label>
 <ul>
+<li>
+<a href=https://wiki.lioil.live/f/mapo-tofu/>麻婆豆腐</a>
+</li>
 </ul>
 </li>
 <li>
@@ -217,7 +220,7 @@ English
 <li><a href=#准备>准备</a>
 <ul>
 <li><a href=#git>Git</a></li>
-<li><a href=#github>Github</a></li>
+<li><a href=#github>GitHub</a></li>
 <li><a href=#确定主题themes>确定主题（Themes）</a></li>
 </ul>
 </li>
@@ -237,9 +240,9 @@ English
 <li><a href=#写一篇文章>写一篇文章</a></li>
 <li><a href=#部署网站>部署网站</a>
 <ul>
-<li><a href=#新建-github-仓库>新建 Github 仓库</a></li>
+<li><a href=#新建-github-仓库>新建 GitHub 仓库</a></li>
 <li><a href=#生成网站文件>生成网站文件</a></li>
-<li><a href=#推送到-github>推送到 Github</a></li>
+<li><a href=#推送到-github>推送到 GitHub</a></li>
 <li><a href=#更新网站>更新网站</a></li>
 </ul>
 </li>
@@ -258,8 +261,8 @@ English
 你将会获得
 <a class=anchor href=#%e4%bd%a0%e5%b0%86%e4%bc%9a%e8%8e%b7%e5%be%97>#</a>
 </h2>
-<p>一个轻巧、漂亮、自定义而且容易部署的静态网页博客；依托于 Github Pages 服务，整个过程完全免费。 适用于 Windows、Linux、FreeBSD 和 macOS。</p>
-<p>博客的网页（文章内容）使用 <code>Markdown</code> 语法撰写生成，在一般情况下网站的每次生成部署，都需要一台已经做好环境配置和相关准备的电脑。也可以利用 Github Actions 达到只需一个浏览器、随写随更新的效果。</p>
+<p>一个轻巧、漂亮、自定义而且容易部署的静态网页博客；依托于 GitHub Pages 服务，整个过程完全免费。 适用于 Windows、Linux、FreeBSD 和 macOS。</p>
+<p>博客的网页（文章内容）使用 <code>Markdown</code> 语法撰写生成，在一般情况下网站的每次生成部署，都需要一台已经做好环境配置和相关准备的电脑。也可以利用 GitHub Actions 达到只需一个浏览器、随写随更新的效果。</p>
 <h2 id=关于-hugo>
 关于 Hugo
 <a class=anchor href=#%e5%85%b3%e4%ba%8e-hugo>#</a>
@@ -282,15 +285,15 @@ Git
 </h3>
 <p>过程中需要用到 Git 环境，也可以用 GitHub Desktop。本文以 Git 为例。</p>
 <h3 id=github>
-Github
+GitHub
 <a class=anchor href=#github>#</a>
 </h3>
-<p>注册一个 Github 帐号。</p>
+<p>注册一个 GitHub 帐号。</p>
 <h3 id=确定主题themes>
 确定主题（Themes）
 <a class=anchor href=#%e7%a1%ae%e5%ae%9a%e4%b8%bb%e9%a2%98themes>#</a>
 </h3>
-<p>与 Hexo（另一个静态网页生成工具） 不同的是，Hugo 没有附带默认主题，需要另外加入主题否则无法生成网站。在以下网站或通过搜索引擎、Github 找到一个你喜欢的主题。</p>
+<p>与 Hexo（另一个静态网页生成工具） 不同的是，Hugo 没有附带默认主题，需要另外加入主题否则无法生成网站。在以下网站或通过搜索引擎、GitHub 找到一个你喜欢的主题。</p>
 <p>
 <a href=https://themes.gohugo.io/>Hugo Themes</a></p>
 <p>
@@ -419,10 +422,10 @@ Press Ctrl+C to stop
 <a class=anchor href=#%e9%83%a8%e7%bd%b2%e7%bd%91%e7%ab%99>#</a>
 </h2>
 <h3 id=新建-github-仓库>
-新建 Github 仓库
+新建 GitHub 仓库
 <a class=anchor href=#%e6%96%b0%e5%bb%ba-github-%e4%bb%93%e5%ba%93>#</a>
 </h3>
-<p>在 Github 中新建一个名为 <code>&lt;你的用户名>.github.io</code> 的仓库，用于存放网页文件。</p>
+<p>在 GitHub 中新建一个名为 <code>&lt;你的用户名>.github.io</code> 的仓库，用于存放网页文件。</p>
 <p>这里假设用户名为 <code>smilonely</code> 部署好后网站的链接为 <code>smilonely.github.io</code>。</p>
 <p>如果这个仓库你已经使用或者你不想使用，你可以自定义一个仓库名字，假设为 <code>my-blog</code> ，那么你需要推送到这个仓库的 <code>gh-pages</code> 分支，网站链接为 <code>smilonely.github.io/my-blog</code>。</p>
 <h3 id=生成网站文件>
@@ -456,10 +459,10 @@ Press Ctrl+C to stop
 </code></pre></div><p>JS 文件同理，保存后检查网页是否恢复正常。</p>
 <p><em>这个问题我还没找出原因，找到之后我会更新这个地方。</em></p>
 <h3 id=推送到-github>
-推送到 Github
+推送到 GitHub
 <a class=anchor href=#%e6%8e%a8%e9%80%81%e5%88%b0-github>#</a>
 </h3>
-<p>进入 <code>public</code> 目录，将这个目录下文件推送到你的 Github 仓库。</p>
+<p>进入 <code>public</code> 目录，将这个目录下文件推送到你的 GitHub 仓库。</p>
 <div class=highlight><pre tabindex=0 style=color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4><code class=language-shell data-lang=shell>cd public
 git init
 git remote add origin https://smilonely.github.io/
@@ -488,9 +491,9 @@ git push
 </article>
 <footer class=book-footer>
 <div class="flex flex-wrap justify-between">
-<div><a class="flex align-center" href=https://github.com/smilonely/Strange-Book/commit/270622698b0a2b01c364621403a31ac62b19732b title="最后修改者 Dangel | November 4, 2021" target=_blank rel=noopener>
+<div><a class="flex align-center" href=https://github.com/smilonely/Strange-Book/commit/25f0893f536aa936e2f46d6995a31fcd1d179a62 title="最后修改者 Dangel | November 23, 2021" target=_blank rel=noopener>
 <img src=/svg/calendar.svg class=book-icon alt=Calendar>
-<span>November 4, 2021</span>
+<span>November 23, 2021</span>
 </a>
 </div>
 <div>
@@ -517,7 +520,7 @@ git push
 <li><a href=#准备>准备</a>
 <ul>
 <li><a href=#git>Git</a></li>
-<li><a href=#github>Github</a></li>
+<li><a href=#github>GitHub</a></li>
 <li><a href=#确定主题themes>确定主题（Themes）</a></li>
 </ul>
 </li>
@@ -537,9 +540,9 @@ git push
 <li><a href=#写一篇文章>写一篇文章</a></li>
 <li><a href=#部署网站>部署网站</a>
 <ul>
-<li><a href=#新建-github-仓库>新建 Github 仓库</a></li>
+<li><a href=#新建-github-仓库>新建 GitHub 仓库</a></li>
 <li><a href=#生成网站文件>生成网站文件</a></li>
-<li><a href=#推送到-github>推送到 Github</a></li>
+<li><a href=#推送到-github>推送到 GitHub</a></li>
 <li><a href=#更新网站>更新网站</a></li>
 </ul>
 </li>
