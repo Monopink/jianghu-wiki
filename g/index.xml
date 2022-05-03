@@ -4,7 +4,7 @@ alipay.com, androidapp://com.alipay.mobile
 taobao.com, tmall.com, e22a.com, cainiao.com, androidapp://com.tmall.wireless, androidapp://com.taobao.taobao
 使用正则表达式排除二级域名 # 以 qq.com 为例
 匹配规则：
-^https?://?[a-z0-9.]*[/\.](?&amp;lt;![/\.](exmail|weixin|wechat|wx[0-9]*|om|weread)\.)qq\.com(?!\.)</description></item><item><title>Git 笔记</title><link>https://wiki.lioil.live/g/about-git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/about-git/</guid><description>Git 笔记 # 给不同项目配置不同 Git 账号 # 给 Git 设置全局账号
+^https?://[a-z0-9.]*(?&amp;lt;=[/\.])(?&amp;lt;![/\.](exmail|wx[0-9]*|weixin|wechat|weread|wetest|om|ai)\.)qq\.com(/|$)</description></item><item><title>Git 笔记</title><link>https://wiki.lioil.live/g/about-git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/about-git/</guid><description>Git 笔记 # 给不同项目配置不同 Git 账号 # 给 Git 设置全局账号
 git config --global user.name &amp;#34;Jianghu Wiki&amp;#34; git config --global user.email &amp;#34;jianghu-wiki@lioil.com&amp;#34; 在某个项目下进行特殊设置
 git config user.name &amp;#34;Jianghu Wiki 2&amp;#34; git config user.email &amp;#34;jianghu-wiki-2@lioil.com&amp;#34; 查看该项目配置
 git config --list 输出如下信息
