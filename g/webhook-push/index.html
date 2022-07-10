@@ -1,19 +1,29 @@
-<!doctype html><html lang=zh dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Webhook 消息推送 #  Telegram #  POST #    https://core.telegram.org/bots/api#sendmessage
- 获取 Telegram Bot 相关 chat_id
- https://api.telegram.org/bot{token}/getUpdates URL
+<!doctype html><html lang=zh dir=ltr><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta name=description content="Webhook 消息推送 # Telegram # POST # https://core.telegram.org/bots/api#sendmessage
+获取 Telegram Bot 相关 chat_id
+https://api.telegram.org/bot{token}/getUpdates URL
 https://api.telegram.org/bot{token}/ body
-{  &#34;method&#34;:&#34;sendMessage&#34;,  &#34;chat_id&#34;:{chat_id},  &#34;text&#34;:&#34;<Message Content>&#34;,  &#34;parse_mode&#34;:&#34;Markdown&#34;,  &#34;disable_web_page_preview&#34;:true } Python #    https://python-telegram-bot.org/
- 安装 Python Telegram Bot API
+{ &#34;method&#34;:&#34;sendMessage&#34;, &#34;chat_id&#34;:{chat_id}, &#34;text&#34;:&#34;<Message Content>&#34;, &#34;parse_mode&#34;:&#34;Markdown&#34;, &#34;disable_web_page_preview&#34;:true } Python # https://python-telegram-bot.org/
+安装 Python Telegram Bot API
 pip install python-telegram-bot 发送信息
-import telegram  def main():  # 代理请求  proxy = telegram.utils.request.Request(proxy_url='socks5://127.0.0.1:1080')  bot = telegram.Bot({token}, request=proxy)  bot."><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content="Webhook 消息推送"><meta property="og:description" content="Webhook 消息推送 #  Telegram #  POST #    https://core.telegram.org/bots/api#sendmessage
- 获取 Telegram Bot 相关 chat_id
- https://api.telegram.org/bot{token}/getUpdates URL
+import telegram def main(): # 代理请求 proxy = telegram.utils.request.Request(proxy_url='socks5://127.0.0.1:1080') bot = telegram.Bot({token}, request=proxy) bot.send_message(chat_id={chat_id}, text=&#34;<Message Content>&#34;) if __name__ == '__main__': main() Lark # https://open.larksuite.com/document/
+URL
+https://open.larksuite.com/open-apis/bot/v2/hook/{token} head
+Content-Type: application/json body
+text
+{ &#34;msg_type&#34;:&#34;text&#34;, &#34;content&#34;:{ &#34;text&#34;:&#34;<Message Content>&#34; } } rich text"><meta name=theme-color content="#FFFFFF"><meta name=color-scheme content="light dark"><meta property="og:title" content="Webhook 消息推送"><meta property="og:description" content="Webhook 消息推送 # Telegram # POST # https://core.telegram.org/bots/api#sendmessage
+获取 Telegram Bot 相关 chat_id
+https://api.telegram.org/bot{token}/getUpdates URL
 https://api.telegram.org/bot{token}/ body
-{  &#34;method&#34;:&#34;sendMessage&#34;,  &#34;chat_id&#34;:{chat_id},  &#34;text&#34;:&#34;<Message Content>&#34;,  &#34;parse_mode&#34;:&#34;Markdown&#34;,  &#34;disable_web_page_preview&#34;:true } Python #    https://python-telegram-bot.org/
- 安装 Python Telegram Bot API
+{ &#34;method&#34;:&#34;sendMessage&#34;, &#34;chat_id&#34;:{chat_id}, &#34;text&#34;:&#34;<Message Content>&#34;, &#34;parse_mode&#34;:&#34;Markdown&#34;, &#34;disable_web_page_preview&#34;:true } Python # https://python-telegram-bot.org/
+安装 Python Telegram Bot API
 pip install python-telegram-bot 发送信息
-import telegram  def main():  # 代理请求  proxy = telegram.utils.request.Request(proxy_url='socks5://127.0.0.1:1080')  bot = telegram.Bot({token}, request=proxy)  bot."><meta property="og:type" content="article"><meta property="og:url" content="https://wiki.lioil.live/g/webhook-push/"><meta property="article:section" content="g"><meta property="article:modified_time" content="2022-03-26T15:45:31+09:00"><meta property="og:site_name" content="浆糊 Wiki"><title>Webhook 消息推送 | 浆糊 Wiki</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css integrity="sha256-RhgbyTN1upMgJudTs3xA5v+LsWqe93DHi8xmPkV3sbo=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script>
-<script defer src=/zh.search.min.043312d045cddfc075e28199677635fdcfe133e9030fb185da9aa6112a7dec66.js integrity="sha256-BDMS0EXN38B14oGZZ3Y1/c/hM+kDD7GF2pqmESp97GY=" crossorigin=anonymous></script>
+import telegram def main(): # 代理请求 proxy = telegram.utils.request.Request(proxy_url='socks5://127.0.0.1:1080') bot = telegram.Bot({token}, request=proxy) bot.send_message(chat_id={chat_id}, text=&#34;<Message Content>&#34;) if __name__ == '__main__': main() Lark # https://open.larksuite.com/document/
+URL
+https://open.larksuite.com/open-apis/bot/v2/hook/{token} head
+Content-Type: application/json body
+text
+{ &#34;msg_type&#34;:&#34;text&#34;, &#34;content&#34;:{ &#34;text&#34;:&#34;<Message Content>&#34; } } rich text"><meta property="og:type" content="article"><meta property="og:url" content="https://wiki.lioil.live/g/webhook-push/"><meta property="article:section" content="g"><meta property="article:modified_time" content="2022-03-26T15:45:31+09:00"><meta property="og:site_name" content="浆糊 Wiki"><title>Webhook 消息推送 | 浆糊 Wiki</title><link rel=manifest href=/manifest.json><link rel=icon href=/favicon.png type=image/x-icon><link rel=stylesheet href=/book.min.46181bc93375ba932026e753b37c40e6ff8bb16a9ef770c78bcc663e4577b1ba.css integrity="sha256-RhgbyTN1upMgJudTs3xA5v+LsWqe93DHi8xmPkV3sbo=" crossorigin=anonymous><script defer src=/flexsearch.min.js></script>
+<script defer src=/zh.search.min.75efa0c2c0135e614fa1a819525a4a8655d43477ef9f218bcdc20ab315dcf397.js integrity="sha256-de+gwsATXmFPoagZUlpKhlXUNHfvnyGLzcIKsxXc85c=" crossorigin=anonymous></script>
 <script defer src=/sw.min.6f6f90fcb8eb1c49ec389838e6b801d0de19430b8e516902f8d75c3c8bd98739.js integrity="sha256-b2+Q/LjrHEnsOJg45rgB0N4ZQwuOUWkC+NdcPIvZhzk=" crossorigin=anonymous></script></head><body dir=ltr><input type=checkbox class="hidden toggle" id=menu-control>
 <input type=checkbox class="hidden toggle" id=toc-control><main class="container flex"><aside class=book-menu><div class=book-menu-content><nav><h2 class=book-brand><a class="flex align-center" href=/><span>浆糊 Wiki</span></a></h2><div class=book-search><input type=text id=book-search-input placeholder=搜索 aria-label=搜索 maxlength=64 data-hotkeys=s/><div class="book-search-spinner hidden"></div><ul id=book-search-results></ul></div><ul class=book-languages><li><input type=checkbox id=languages class=toggle>
 <label for=languages class="flex justify-between"><a role=button class="flex align-center"><img src=/svg/translate.svg class=book-icon alt=Languages>
@@ -94,6 +104,6 @@ import telegram  def main():  # 代理请求  proxy = telegram.utils.request.Req
 </span></span><span style=display:flex><span>      <span style=color:#f92672>&#34;content&#34;</span>:<span style=color:#e6db74>&#34;Message Content&#34;</span>
 </span></span><span style=display:flex><span>   }
 </span></span><span style=display:flex><span>}
-</span></span></code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/smilonely/Strange-Book/commit/a71e3ebcca74cd62505a4c77eae8b1a533264935 title="最后修改者 Dangel | March 26, 2022" target=_blank rel=noopener><img src=/svg/calendar.svg class=book-icon alt=Calendar>
+</span></span></code></pre></div></article><footer class=book-footer><div class="flex flex-wrap justify-between"><div><a class="flex align-center" href=https://github.com/smilonely/Strange-Book/commit/a71e3ebcca74cd62505a4c77eae8b1a533264935 title='最后修改者 Dangel | March 26, 2022' target=_blank rel=noopener><img src=/svg/calendar.svg class=book-icon alt=Calendar>
 <span>March 26, 2022</span></a></div><div><a class="flex align-center" href=https://github.com/smilonely/Strange-Book/blob/master/content.zh/g/webhook%20push.md target=_blank rel=noopener><img src=/svg/edit.svg class=book-icon alt=Edit>
-<span>编辑本页</span></a></div></div><script>(function(){function e(n){const e=window.getSelection(),t=document.createRange();t.selectNodeContents(n),e.removeAllRanges(),e.addRange(t)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><a href=#webhook-消息推送>Webhook 消息推送</a><ul><li><a href=#telegram>Telegram</a><ul><li><a href=#post>POST</a></li><li><a href=#python>Python</a></li></ul></li><li><a href=#lark>Lark</a></li><li><a href=#dingtalk>Dingtalk</a></li></ul></li></ul></nav></div></aside></main></body></html>
+<span>编辑本页</span></a></div></div><script>(function(){function e(e){const t=window.getSelection(),n=document.createRange();n.selectNodeContents(e),t.removeAllRanges(),t.addRange(n)}document.querySelectorAll("pre code").forEach(t=>{t.addEventListener("click",function(){e(t.parentElement),navigator.clipboard&&navigator.clipboard.writeText(t.parentElement.textContent)})})})()</script></footer><div class=book-comments></div><label for=menu-control class="hidden book-menu-overlay"></label></div><aside class=book-toc><div class=book-toc-content><nav id=TableOfContents><ul><li><a href=#webhook-消息推送>Webhook 消息推送</a><ul><li><a href=#telegram>Telegram</a><ul><li><a href=#post>POST</a></li><li><a href=#python>Python</a></li></ul></li><li><a href=#lark>Lark</a></li><li><a href=#dingtalk>Dingtalk</a></li></ul></li></ul></nav></div></aside></main></body></html>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Geek on 浆糊 Wiki</title><link>https://wiki.lioil.live/g/</link><description>Recent content in Geek on 浆糊 Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><atom:link href="https://wiki.lioil.live/g/index.xml" rel="self" type="application/rss+xml"/><item><title>Bitwarden 域名匹配</title><link>https://wiki.lioil.live/g/bitwarden-url/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/bitwarden-url/</guid><description>Bitwarden 域名匹配 # 自定义 Domain Rules # weiyun.com, androidapp://com.tencent.mobileqq
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Geek on 浆糊 Wiki</title><link>https://wiki.lioil.live/g/</link><description>Recent content in Geek on 浆糊 Wiki</description><generator>Hugo -- gohugo.io</generator><language>zh</language><atom:link href="https://wiki.lioil.live/g/index.xml" rel="self" type="application/rss+xml"/><item><title>Bitwarden 域名匹配</title><link>https://wiki.lioil.live/g/bitwarden-url/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/bitwarden-url/</guid><description> Bitwarden 域名匹配 # 自定义 Domain Rules # weiyun.com, androidapp://com.tencent.mobileqq
 wechat.com, androidapp://com.tencent.mm
 alipay.com, androidapp://com.alipay.mobile
 taobao.com, tmall.com, e22a.com, cainiao.com, androidapp://com.tmall.wireless, androidapp://com.taobao.taobao
@@ -15,7 +15,12 @@ https://api.telegram.org/bot{token}/ body
 { &amp;#34;method&amp;#34;:&amp;#34;sendMessage&amp;#34;, &amp;#34;chat_id&amp;#34;:{chat_id}, &amp;#34;text&amp;#34;:&amp;#34;&amp;lt;Message Content&amp;gt;&amp;#34;, &amp;#34;parse_mode&amp;#34;:&amp;#34;Markdown&amp;#34;, &amp;#34;disable_web_page_preview&amp;#34;:true } Python # https://python-telegram-bot.org/
 安装 Python Telegram Bot API
 pip install python-telegram-bot 发送信息
-import telegram def main(): # 代理请求 proxy = telegram.utils.request.Request(proxy_url=&amp;#39;socks5://127.0.0.1:1080&amp;#39;) bot = telegram.Bot({token}, request=proxy) bot.</description></item><item><title>使用 Hugo 搭建个人 Wiki</title><link>https://wiki.lioil.live/g/build-a-wiki-with-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/build-a-wiki-with-hugo/</guid><description>#</description></item><item><title>使用 Hugo 搭建个人博客</title><link>https://wiki.lioil.live/g/build-a-blog-with-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/build-a-blog-with-hugo/</guid><description>使用 Hugo 搭建个人博客 # 你将会获得 # 一个轻巧、漂亮、自定义而且容易部署的静态网页博客；依托于 GitHub Pages 服务，整个过程完全免费。 适用于 Windows、Linux、FreeBSD 和 macOS。
+import telegram def main(): # 代理请求 proxy = telegram.utils.request.Request(proxy_url=&amp;#39;socks5://127.0.0.1:1080&amp;#39;) bot = telegram.Bot({token}, request=proxy) bot.send_message(chat_id={chat_id}, text=&amp;#34;&amp;lt;Message Content&amp;gt;&amp;#34;) if __name__ == &amp;#39;__main__&amp;#39;: main() Lark # https://open.larksuite.com/document/
+URL
+https://open.larksuite.com/open-apis/bot/v2/hook/{token} head
+Content-Type: application/json body
+text
+{ &amp;#34;msg_type&amp;#34;:&amp;#34;text&amp;#34;, &amp;#34;content&amp;#34;:{ &amp;#34;text&amp;#34;:&amp;#34;&amp;lt;Message Content&amp;gt;&amp;#34; } } rich text</description></item><item><title>使用 Hugo 搭建个人 Wiki</title><link>https://wiki.lioil.live/g/build-a-wiki-with-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/build-a-wiki-with-hugo/</guid><description> #</description></item><item><title>使用 Hugo 搭建个人博客</title><link>https://wiki.lioil.live/g/build-a-blog-with-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/build-a-blog-with-hugo/</guid><description>使用 Hugo 搭建个人博客 # 你将会获得 # 一个轻巧、漂亮、自定义而且容易部署的静态网页博客；依托于 GitHub Pages 服务，整个过程完全免费。 适用于 Windows、Linux、FreeBSD 和 macOS。
 博客的网页（文章内容）使用 Markdown 语法撰写生成，在一般情况下网站的每次生成部署，都需要一台已经做好环境配置和相关准备的电脑。也可以利用 GitHub Actions 达到只需一个浏览器、随写随更新的效果。
 关于 Hugo # Hugo 是由 Go 语言实现的静态网站生成器，简单、易用、高效、易扩展、快速部署。
 Hugo 不仅仅可以用来搭建博客，还有可以搭建公司主页、个人简历、项目文档等等非常多类别的主题（Themes，我习惯称之为主题）。你也可以编写或修改主题来搭建自己想要的网站。
@@ -25,4 +30,8 @@ Hugo 中文文档
 准备 # Git # 过程中需要用到 Git 环境，也可以用 GitHub Desktop。本文以 Git 为例。
 GitHub # 注册一个 GitHub 帐号。
 确定主题（Themes） # 与 Hexo（另一个静态网页生成工具） 不同的是，Hugo 没有附带默认主题，需要另外加入主题否则无法生成网站。在以下网站或通过搜索引擎、GitHub 找到一个你喜欢的主题。
-Hugo Themes</description></item></channel></rss>
+Hugo Themes
+Hugo 皮肤列表
+你可以通过主题作者已经搭建好的 Demo 页面（如果有的话）提前体验到成品效果。
+如果你想尽可能简单地搭建好网站的话，在选择之初就应检查主题各项功能是否满足你的需要，例如：
+是否为响应式 是否对 SEO 友好 是否具备暗色模式 是否具备多语言支持 文章列表是否具备摘要 内容排版、字体是否是你想要的 是否支持你需要的评论系统、网站分析系统、社交网站链接 等等，当然你也可以自己修改主题以达到目的。</description></item></channel></rss>
