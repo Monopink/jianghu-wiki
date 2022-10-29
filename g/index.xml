@@ -4,11 +4,8 @@ alipay.com, androidapp://com.alipay.mobile
 taobao.com, tmall.com, e22a.com, cainiao.com, androidapp://com.tmall.wireless, androidapp://com.taobao.taobao
 使用正则表达式排除二级域名 # 以 qq.com 为例
 匹配规则：
-^https?://[a-z0-9.]*(?&amp;lt;=[/\.])(?&amp;lt;![/\.](exmail|wx[0-9]*|weixin|wechat|weread|wetest|om|ai)\.)qq\.com(/|$)</description></item><item><title>Git 笔记</title><link>https://wiki.lioil.live/g/about-git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/about-git/</guid><description>Git 笔记 # 给不同项目配置不同 Git 账号 # 给 Git 设置全局账号
-git config --global user.name &amp;#34;Jianghu Wiki&amp;#34; git config --global user.email &amp;#34;jianghu-wiki@lioil.com&amp;#34; 在某个项目下进行特殊设置
-git config user.name &amp;#34;Jianghu Wiki 2&amp;#34; git config user.email &amp;#34;jianghu-wiki-2@lioil.com&amp;#34; 查看该项目配置
-git config --list 输出如下信息
-... user.name=Jianghu Wiki user.email=jianghu-wiki@lioil.com ... user.name=Jianghu Wiki 2 user.email=jianghu-wiki-2@lioil.com ... 有多个配置时将使用下面的配置</description></item><item><title>Webhook 消息推送</title><link>https://wiki.lioil.live/g/webhook-push/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/webhook-push/</guid><description>Webhook 消息推送 # Telegram # POST # https://core.telegram.org/bots/api#sendmessage
+^https?://[a-z0-9.]*(?&amp;lt;=[/\.])(?&amp;lt;![/\.](exmail|wx[0-9]*|weixin|wechat|weread|wetest|om|ai)\.)qq\.com(/|$)</description></item><item><title>Git 笔记</title><link>https://wiki.lioil.live/g/about-git/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/about-git/</guid><description>Git 笔记 # 给不同项目配置不同 Git 账号 # 给 Git 设置全局账号 # git config --global user.name &amp;#34;Jianghu Wiki&amp;#34; git config --global user.email &amp;#34;jianghu-wiki@lioil.com&amp;#34; 在某个项目下进行特殊设置 # git config user.name &amp;#34;Jianghu Wiki 2&amp;#34; git config user.email &amp;#34;jianghu-wiki-2@lioil.live&amp;#34; 查看该项目配置 # git config --list 输出如下信息，有多个配置时将使用下面的配置
+... user.name=Jianghu Wiki user.email=jianghu-wiki@lioil.live ... user.name=Jianghu Wiki 2 user.email=jianghu-wiki-2@lioil.live ... 设置和取消代理 # git config --global http.proxy http://127.0.0.1:7890 git config --global https.proxy https://127.0.0.1:7890 git config --global --unset http.proxy git config --global --unset https.</description></item><item><title>Webhook 消息推送</title><link>https://wiki.lioil.live/g/webhook-push/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/g/webhook-push/</guid><description>Webhook 消息推送 # Telegram # POST # https://core.telegram.org/bots/api#sendmessage
 获取 Telegram Bot 相关 chat_id
 https://api.telegram.org/bot{token}/getUpdates URL
 https://api.telegram.org/bot{token}/ body
