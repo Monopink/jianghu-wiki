@@ -9,7 +9,7 @@
 川菜小炒 # 麻婆味型+几片姜 回锅肉 # 酱油+蚝油+郫县豆瓣+糖+甜面酱（可选）。 醋溜 # 家常炒+2勺醋 醋要在出锅前溜锅边烹入，否则就失去了醋香。
 糖醋 # 生抽∶糖∶醋=1∶3∶3 宫保/荔枝 # 3勺酱油+1勺糖+3勺醋 适量加入花椒干辣椒和葱蒜，香气更盛。
 鱼香 # 3勺酱油+2勺糖+1勺醋+蒜末+泡椒 中式红烧 # 红烧 # 300g食材∶3勺生抽∶1勺料酒∶1/4勺糖（∶3-5片姜） 减少生抽，增加糖量，把料酒替换成味啉，就是日式照烧。
-油焖 # 红烧多加点油 入味慢的食材适合红烧（牛羊猪肉）、入味快的食材则适合油焖（蔬菜如笋、茭白，海鲜如虾等）。</description></item><item><title>“学习强国”学习平台服务协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/xuexi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/xuexi/</guid><description>“学习强国”学习平台服务协议 # 原始协议地址：未知（需从 App 进入）
+油焖 # 红烧多加点油 入味慢的食材适合红烧（牛羊猪肉）、入味快的食材则适合油焖（蔬菜如笋、茭白，海鲜如虾等）。</description></item><item><title>Hello</title><link>https://wiki.lioil.live/posts/hello-world/</link><pubDate>Mon, 10 Jul 2023 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/posts/hello-world/</guid><description>Helloooo Woooorld</description></item><item><title>“学习强国”学习平台服务协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/xuexi/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/xuexi/</guid><description>“学习强国”学习平台服务协议 # 原始协议地址：未知（需从 App 进入）
 所属机构名称：中共中央宣传部宣传舆情研究中心 最后编辑时间：2020-04-13 协议是否有效：是 本内容编辑者：Dangel 老生常谈 # 你不能有违法违规、侵权、超允许范围使用本服务行为。
 服务方有权在你违反协议、违法违规时限制或终止服务。
 未满 18 周岁用户请勿使用本服务。
@@ -147,7 +147,9 @@ pip install python-telegram-bot 发送信息
 import telegram def main(): # 代理请求 proxy = telegram.utils.request.Request(proxy_url=&amp;#39;socks5://127.0.0.1:1080&amp;#39;) bot = telegram.Bot({token}, request=proxy) bot.send_message(chat_id={chat_id}, text=&amp;#34;&amp;lt;Message Content&amp;gt;&amp;#34;) if __name__ == &amp;#39;__main__&amp;#39;: main() Lark Lark # https://open.larksuite.com/document/
 URL
 https://open.larksuite.com/open-apis/bot/v2/hook/{token} head
-Content-Type: application/json body</description></item><item><title>百度网盘服务协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/baidu-disk-duty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/baidu-disk-duty/</guid><description> 百度网盘服务协议 # 原始协议地址： yun.baidu.com
+Content-Type: application/json body</description></item><item><title>WSA ADB 命令</title><link>https://wiki.lioil.live/n/wsa-adb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/n/wsa-adb/</guid><description> Windows Subsystem for Android ADB 命令 # ADB 连接
+adb connect 127.0.0.1:58526 设置代理
+adb shell &amp;#34;settings put global http_proxy `ip route list match 0 table all scope global | cut -F3`:7890&amp;#34;</description></item><item><title>百度网盘服务协议</title><link>https://wiki.lioil.live/dp/i-dont-wanna-read-it/baidu-disk-duty/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/dp/i-dont-wanna-read-it/baidu-disk-duty/</guid><description> 百度网盘服务协议 # 原始协议地址： yun.baidu.com
 所属公司名称：百度公司 最后编辑时间：2020-04-13 协议是否有效：是 本内容编辑者：Dangel 老生常谈 # 你不能有违法违规、侵权、超允许范围使用本服务行为。
 服务方有权在你违反协议、违法违规时限制或终止服务。
 未满 14 周岁用户请在监护人指导下使用本服务。
@@ -312,4 +314,4 @@ Twitter 个性化与数据
 #3・2019-04-23 # 加入「腾讯服务协议」。
 #2・2019-04-22 # 完善内容。
 加入「QQ 号码规则」、「QQ 空间使用规则」。
-#1・2019-04-22 # 创建项目，并加入「QQ 空间服务协议」。</description></item><item><title/><link>https://wiki.lioil.live/posts/hello-world/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://wiki.lioil.live/posts/hello-world/</guid><description>--- author: &amp;#34;Dangel&amp;#34; date: 2023-07-10 linktitle: Hello World menu: main: parent: tutorials next: prev: title: Hello weight: 10 --- Helloooo Woooorld</description></item></channel></rss>
+#1・2019-04-22 # 创建项目，并加入「QQ 空间服务协议」。</description></item></channel></rss>
