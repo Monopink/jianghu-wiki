@@ -14,7 +14,7 @@
 <a class=anchor href=#webhook-%e6%b6%88%e6%81%af%e6%8e%a8%e9%80%81>#</a></h1><div class=book-tabs><input type=radio class=toggle name=tabs-uniqueid id=tabs-uniqueid-0 checked>
 <label for=tabs-uniqueid-0>Telegram</label><div class="book-tabs-content markdown-inner"><h2 id=telegram>Telegram
 <a class=anchor href=#telegram>#</a></h2><h3 id=post>POST
-<a class=anchor href=#post>#</a></h3><blockquote><p><a href=https://core.telegram.org/bots/api#sendmessage>https://core.telegram.org/bots/api#sendmessage</a></p></blockquote><p>获取 Telegram Bot 相关 <code>chat_id</code></p><pre tabindex=0><code>https://api.telegram.org/bot{token}/getUpdates
+<a class=anchor href=#post>#</a></h3><blockquote><p><a href=https://core.telegram.org/bots/api#sendmessage target=_blank rel=noopener>https://core.telegram.org/bots/api#sendmessage</a></p></blockquote><p>获取 Telegram Bot 相关 <code>chat_id</code></p><pre tabindex=0><code>https://api.telegram.org/bot{token}/getUpdates
 </code></pre><p>URL</p><pre tabindex=0><code>https://api.telegram.org/bot{token}/
 </code></pre><p>body</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=line><span class=cl><span class=p>{</span>
 </span></span><span class=line><span class=cl>   <span class=nt>&#34;method&#34;</span><span class=p>:</span><span class=s2>&#34;sendMessage&#34;</span><span class=p>,</span>
@@ -24,7 +24,7 @@
 </span></span><span class=line><span class=cl>   <span class=nt>&#34;disable_web_page_preview&#34;</span><span class=p>:</span><span class=kc>true</span>
 </span></span><span class=line><span class=cl><span class=p>}</span>
 </span></span></code></pre></div><h3 id=python>Python
-<a class=anchor href=#python>#</a></h3><blockquote><p><a href=https://python-telegram-bot.org/>https://python-telegram-bot.org/</a></p></blockquote><p>安装 Python Telegram Bot API</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-console data-lang=console><span class=line><span class=cl><span class=go>pip install python-telegram-bot
+<a class=anchor href=#python>#</a></h3><blockquote><p><a href=https://python-telegram-bot.org/ target=_blank rel=noopener>https://python-telegram-bot.org/</a></p></blockquote><p>安装 Python Telegram Bot API</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-console data-lang=console><span class=line><span class=cl><span class=go>pip install python-telegram-bot
 </span></span></span></code></pre></div><p>发送信息</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-python data-lang=python><span class=line><span class=cl><span class=kn>import</span> <span class=nn>telegram</span>
 </span></span><span class=line><span class=cl>
 </span></span><span class=line><span class=cl><span class=k>def</span> <span class=nf>main</span><span class=p>():</span>
@@ -37,7 +37,7 @@
 </span></span><span class=line><span class=cl>    <span class=n>main</span><span class=p>()</span>
 </span></span></code></pre></div></div><input type=radio class=toggle name=tabs-uniqueid id=tabs-uniqueid-1>
 <label for=tabs-uniqueid-1>Lark</label><div class="book-tabs-content markdown-inner"><h2 id=lark>Lark
-<a class=anchor href=#lark>#</a></h2><blockquote><p><a href=https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/bot-v3/use-custom-bots-in-a-group>https://open.larksuite.com/document/</a></p></blockquote><p>URL</p><pre tabindex=0><code>https://open.larksuite.com/open-apis/bot/v2/hook/{token}
+<a class=anchor href=#lark>#</a></h2><blockquote><p><a href=https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/bot-v3/use-custom-bots-in-a-group target=_blank rel=noopener>https://open.larksuite.com/document/</a></p></blockquote><p>URL</p><pre tabindex=0><code>https://open.larksuite.com/open-apis/bot/v2/hook/{token}
 </code></pre><p>head</p><pre tabindex=0><code>Content-Type: application/json
 </code></pre><p>body</p><p><em>text</em></p><div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=line><span class=cl><span class=p>{</span>
 </span></span><span class=line><span class=cl>   <span class=nt>&#34;msg_type&#34;</span><span class=p>:</span><span class=s2>&#34;text&#34;</span><span class=p>,</span>
@@ -73,7 +73,7 @@
 </span></span></span><span class=line><span class=cl><span class=go>  ​https://open.larksuite.com/open-apis/bot/v2/hook/{token}​ 
 </span></span></span></code></pre></div></div><input type=radio class=toggle name=tabs-uniqueid id=tabs-uniqueid-2>
 <label for=tabs-uniqueid-2>Dingtalk</label><div class="book-tabs-content markdown-inner"><h2 id=dingtalk>Dingtalk
-<a class=anchor href=#dingtalk>#</a></h2><blockquote><p><a href=https://www.dingtalk.com/qidian/help-detail-20781541.html>https://www.dingtalk.com/qidian/help-detail-20781541.html</a></p></blockquote><p>URL</p><pre tabindex=0><code>https://oapi.dingtalk.com/robot/send?access_token={token}
+<a class=anchor href=#dingtalk>#</a></h2><blockquote><p><a href=https://www.dingtalk.com/qidian/help-detail-20781541.html target=_blank rel=noopener>https://www.dingtalk.com/qidian/help-detail-20781541.html</a></p></blockquote><p>URL</p><pre tabindex=0><code>https://oapi.dingtalk.com/robot/send?access_token={token}
 </code></pre><p>head</p><pre tabindex=0><code>Content-Type: application/json;charset=utf-8
 </code></pre><p>body</p><div class=highlight><pre tabindex=0 class=chroma><code class=language-json data-lang=json><span class=line><span class=cl><span class=p>{</span>
 </span></span><span class=line><span class=cl>   <span class=nt>&#34;msgtype&#34;</span><span class=p>:</span><span class=s2>&#34;text&#34;</span><span class=p>,</span>
