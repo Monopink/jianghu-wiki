@@ -85,9 +85,18 @@ taobao.com, tmall.com, e22a.com, cainiao.com, androidapp://com.tmall.wireless, a
 原文所说的方法需要使用电脑连接手机备份来达到修改系统应用语言的目的，这个方法思路很好，但是操作起来略微复杂。这里以地图应用 Maps 为例，在 iPhone 或 iPad 本机，不需要借助其他设备来修改应用语言。
 但是前提是设备需要已经越狱或者安装 TrollStore 巨魔商店，并且安装文件管理器，这里我以 Filza 为例。
 下面开始。
-通过可能的方法安装 Filza。 在 Filza 中点底栏中间的⭐星星图标，选择Apps manager。 在列表中找到Maps进入，接着进入Library → Preferences。 找到 com.apple.Maps.plist，进入。 点击Root一行右端的❕感叹号进入。 滑倒最底点击Add item ...，新建一项。 点击修改新添加的New item，将NAME改为AppleLanguages，TYPE改为Array。 还是这里，在VALUE下点击Add item ...，新建Item 0。 点击修改新添加的Item 0，将VALUE修改为zh-Hant。语言标志含义如下： zh-Hans 简体中文 zh-Hant 繁体中文 en-US 美式英语 上面一步是将简体中文作为第一选择语言，如果还需添加第二选择语言（例如英语）则重复8-9步添加Item 1即可，以此类推。
+通过可能的方法安装 Filza。
+在 Filza 中点底栏中间的⭐星星图标，选择Apps manager。
+在列表中找到Maps进入，接着进入Library → Preferences。
+找到 com.apple.Maps.plist，进入。
+点击Root一行右端的❕感叹号进入。
+滑倒最底点击Add item ...，新建一项。
+点击修改新添加的New item，将NAME改为AppleLanguages，TYPE改为Array。
+还是这里，在VALUE下点击Add item ...，新建Item 0。
+点击修改新添加的Item 0，将VALUE修改为zh-Hant。语言标志含义如下：
+zh-Hans 简体中文 zh-Hant 繁体中文 en-US 美式英语 上面一步是将简体中文作为第一选择语言，如果还需添加第二选择语言（例如英语）则重复8-9步添加Item 1即可，以此类推。
 修改完成后记得保存plist文件内容。
-打开 Maps 应用则会应用新设置的语言。如果没有变就划掉 Maps 应用后台，重启手机或 Respring 再重新打开 Maps 应用。</description></item><item><title>QQ 号码规则</title><link>https://www.jhwiki.com/digitallife/i-dont-wanna-read-it/tencent-qq-number/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/digitallife/i-dont-wanna-read-it/tencent-qq-number/</guid><description>QQ 号码规则 # 原始协议地址： zc.qq.com
+打开 Maps 应用则会应用新设置的语言顺序。如果没有变就划掉 Maps 应用后台，重启手机或 Respring 再重新打开 Maps 应用。</description></item><item><title>QQ 号码规则</title><link>https://www.jhwiki.com/digitallife/i-dont-wanna-read-it/tencent-qq-number/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/digitallife/i-dont-wanna-read-it/tencent-qq-number/</guid><description>QQ 号码规则 # 原始协议地址： zc.qq.com
 所属公司名称：腾讯公司 最后编辑时间：2019-04-22 协议是否有效：是 本内容编辑者：Dangel 需要注意 # QQ 号所有权属于腾讯。
 QQ 号的使用权仅授予最初的注册人。
 未经腾讯许可，初始注册人不能赠送、租借、售卖 QQ 号。
