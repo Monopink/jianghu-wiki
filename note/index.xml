@@ -42,13 +42,11 @@ https://open.larksuite.com/open-apis/bot/v2/hook/{token} head
 Content-Type: application/json body</description></item><item><title>WSA ADB 命令</title><link>https://www.jhwiki.com/note/wsa-adb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/wsa-adb/</guid><description> Windows Subsystem for Android ADB 命令 # ADB 连接
 adb connect 127.0.0.1:58526 设置代理
 adb shell &amp;#34;settings put global http_proxy `ip route list match 0 table all scope global | cut -F3`:7890&amp;#34;</description></item><item><title>监理</title><link>https://www.jhwiki.com/note/supervision/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/supervision/</guid><description> 要点 # 0️⃣1️⃣2️⃣3️⃣4️⃣5️⃣6️⃣7️⃣8️⃣9️⃣🔟
-三控：质量、造价、进度。
-三管：合同、信息、安全生产。
-一协调：工程建设相关方的关系。
+三控三管一协调：1️⃣控质量、造价、进度2️⃣管合同、信息、安全生产3️⃣协调工程建设相关方的关系。
 监理性质：服务性、科学性、独立性、公平性。
 强制监理（国务院）：1️⃣国家重点2️⃣外国国际3️⃣学影体4️⃣高复住宅5️⃣总投资≥3000万的大中公用6️⃣≥3000万的公共基础7️⃣面积≥5万m²的成片住宅。
 个人责任：违法规3月，质量事故1年，重大质量吊5年，特别恶劣终身。
-国有、经营性、大中型项目法人责任：项目策划、资金筹措、建设实施、生产经营、债务偿还、资产保增值。
+国有、经营性、大中型项目法人责任：1️⃣项目策划2️⃣资金筹措3️⃣建设实施4️⃣生产经营5️⃣债务偿还6️⃣资产保增值。
 必须招标：1️⃣国资2️⃣基础公用3️⃣外国4️⃣施工≥400万5️⃣重要材料设备≥200万6️⃣服务≥100万。
 需要安全机构或专职安全员：1️⃣未（危险物品生产、经营、储存、装卸）2️⃣见（建筑）3️⃣到（运输）4️⃣金（金属冶炼）5️⃣矿（矿山）6️⃣从业人员超过100人的。
 建立应急救援组织：规模较大的1️⃣未2️⃣见3️⃣到（城市轨道和交通运营）4️⃣金5️⃣矿。
