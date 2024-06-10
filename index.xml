@@ -73,7 +73,7 @@ Twitter 个性化与数据
 你应当做 # 你保证，你上传的内容没有版权纠纷。你发布的内容，知识产权归你或原始著作人所有。 你可以做 # 你可以自行选择是否更新新版本软件。
 你可以在【设置】-【账号与安全】-【抖音安全中心】中注销你的帐号。
 其他 # 举报侵权内容：jubao@douyin.com
-个人信息保护参见 《“抖音”隐私政策》。</description></item><item><title>Adobe Indesign</title><link>https://www.jhwiki.com/note/adobe-indesign/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/adobe-indesign/</guid><description> Indesign 防止单字成行 # 新建一个字符样式
+个人信息保护参见 《“抖音”隐私政策》。</description></item><item><title>ACL 命令</title><link>https://www.jhwiki.com/note/acl-command/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/acl-command/</guid><description> ACL 命令 # 安装软件 # Powersheel 输入： $cred = Get-Credential 输入用户名及密码 新窗口输入 $env:__COMPAT_LAYER = &amp;#39;RunAsInvoker&amp;#39; cd ~ &amp;amp; &amp;#39;软件包路径&amp;#39;</description></item><item><title>Adobe Indesign</title><link>https://www.jhwiki.com/note/adobe-indesign/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/adobe-indesign/</guid><description> Indesign 防止单字成行 # 新建一个字符样式
 \w\w[[:punct:]]*$ \w\w[[:punct:]]*~a$ 替换引号 # GREP 替换
 &amp;#34;([^&amp;#34;]+)&amp;#34; “$1”</description></item><item><title>Bitwarden 域名匹配</title><link>https://www.jhwiki.com/note/bitwarden-url/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/bitwarden-url/</guid><description> Bitwarden 域名匹配 # 自定义 Domain Rules # weiyun.com, androidapp://com.tencent.mobileqq
 wechat.com, androidapp://com.tencent.mm
