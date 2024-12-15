@@ -245,104 +245,176 @@ If you have understood all these instructions, write this exact reply &amp;#34;C
  Webhook 消息推送
  &lt;a class="anchor" href="#webhook-%e6%b6%88%e6%81%af%e6%8e%a8%e9%80%81">#&lt;/a>
 &lt;/h1>
+&lt;div class="book-tabs">
+
+
+&lt;input type="radio" class="toggle" name="tabs-0" id="tabs-0-0" checked="checked" />
+&lt;label for="tabs-0-0">Telegram&lt;/label>
+&lt;div class="book-tabs-content markdown-inner">
+## Telegram
+
+### POST
+
+> https://core.telegram.org/bots/api#sendmessage
+
+获取 Telegram Bot 相关 `chat_id`
+
+```
+https://api.telegram.org/bot{token}/getUpdates
+```
+
+URL
+
+```
+https://api.telegram.org/bot{token}/
+```
+
+body
+
+``` json
+{
+ "method":"sendMessage",
+ "chat_id":{chat_id},
+ "text":"&lt;Message Content>",
+ "parse_mode":"Markdown",
+ "disable_web_page_preview":true
+}
+```
+
+### Python
+
+> https://python-telegram-bot.org/
+
+安装 Python Telegram Bot API
+
+``` console
+pip install python-telegram-bot
+```
+
+发送信息
+
+``` python
+import telegram
+
+def main():
+ # 代理请求
+ proxy = telegram.utils.request.Request(proxy_url='socks5://127.0.0.1:1080')
+ bot = telegram.Bot({token}, request=proxy)
+ bot.send_message(chat_id={chat_id}, text="&lt;Message Content>")
+
+if __name__ == '__main__':
+ main()
+```
+&lt;/div>
 
 
 
+&lt;input type="radio" class="toggle" name="tabs-0" id="tabs-0-1" />
+&lt;label for="tabs-0-1">Lark&lt;/label>
+&lt;div class="book-tabs-content markdown-inner">
 
-&lt;div class="book-tabs">&lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-0" checked="checked" />
- &lt;label for="tabs-uniqueid-0">Telegram&lt;/label>
- &lt;div class="book-tabs-content markdown-inner">&lt;h2 id="telegram">
- Telegram
- &lt;a class="anchor" href="#telegram">#&lt;/a>
-&lt;/h2>
-&lt;h3 id="post">
- POST
- &lt;a class="anchor" href="#post">#&lt;/a>
-&lt;/h3>
-&lt;blockquote>
-&lt;p>
- &lt;a href="https://core.telegram.org/bots/api#sendmessage" target="_blank" rel="noopener">https://core.telegram.org/bots/api#sendmessage&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;p>获取 Telegram Bot 相关 &lt;code>chat_id&lt;/code>&lt;/p>
-&lt;pre tabindex="0">&lt;code>https://api.telegram.org/bot{token}/getUpdates
-&lt;/code>&lt;/pre>&lt;p>URL&lt;/p>
-&lt;pre tabindex="0">&lt;code>https://api.telegram.org/bot{token}/
-&lt;/code>&lt;/pre>&lt;p>body&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;method&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;sendMessage&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;chat_id&amp;#34;&lt;/span>&lt;span class="p">:{&lt;/span>&lt;span class="err">chat_id&lt;/span>&lt;span class="p">},&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;text&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;Message Content&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;parse_mode&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;Markdown&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;disable_web_page_preview&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="kc">true&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;h3 id="python">
- Python
- &lt;a class="anchor" href="#python">#&lt;/a>
-&lt;/h3>
-&lt;blockquote>
-&lt;p>
- &lt;a href="https://python-telegram-bot.org/" target="_blank" rel="noopener">https://python-telegram-bot.org/&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;p>安装 Python Telegram Bot API&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-console" data-lang="console">&lt;span class="line">&lt;span class="cl">&lt;span class="go">pip install python-telegram-bot
-&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>发送信息&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">import&lt;/span> &lt;span class="nn">telegram&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">def&lt;/span> &lt;span class="nf">main&lt;/span>&lt;span class="p">():&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># 代理请求&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">proxy&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">telegram&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">utils&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">request&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">Request&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">proxy_url&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s1">&amp;#39;socks5://127.0.0.1:1080&amp;#39;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">bot&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">telegram&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">Bot&lt;/span>&lt;span class="p">({&lt;/span>&lt;span class="n">token&lt;/span>&lt;span class="p">},&lt;/span> &lt;span class="n">request&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="n">proxy&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">bot&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">send_message&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">chat_id&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="n">chat_id&lt;/span>&lt;span class="p">},&lt;/span> &lt;span class="n">text&lt;/span>&lt;span class="o">=&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;Message Content&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">)&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">if&lt;/span> &lt;span class="vm">__name__&lt;/span> &lt;span class="o">==&lt;/span> &lt;span class="s1">&amp;#39;__main__&amp;#39;&lt;/span>&lt;span class="p">:&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">main&lt;/span>&lt;span class="p">()&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;/div>&lt;input type="radio" class="toggle" name="tabs-uniqueid" id="tabs-uniqueid-1" />
- &lt;label for="tabs-uniqueid-1">Lark&lt;/label>
- &lt;div class="book-tabs-content markdown-inner">&lt;h2 id="lark">
- Lark
- &lt;a class="anchor" href="#lark">#&lt;/a>
-&lt;/h2>
-&lt;blockquote>
-&lt;p>
- &lt;a href="https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/bot-v3/use-custom-bots-in-a-group" target="_blank" rel="noopener">https://open.larksuite.com/document/&lt;/a>&lt;/p>
-&lt;/blockquote>
-&lt;p>URL&lt;/p>
-&lt;pre tabindex="0">&lt;code>https://open.larksuite.com/open-apis/bot/v2/hook/{token}
-&lt;/code>&lt;/pre>&lt;p>head&lt;/p>
-&lt;pre tabindex="0">&lt;code>Content-Type: application/json
-&lt;/code>&lt;/pre>&lt;p>body&lt;/p>
-&lt;p>&lt;em>text&lt;/em>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;msg_type&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;text&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;content&amp;#34;&lt;/span>&lt;span class="p">:{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;text&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="s2">&amp;#34;&amp;lt;Message Content&amp;gt;&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>&lt;em>rich text&lt;/em>&lt;/p>
-&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-json" data-lang="json">&lt;span class="line">&lt;span class="cl">&lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;msg_type&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;post&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;content&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;post&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;zh-CN&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;title&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;lt;Title&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;content&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="p">[&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">[&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;tag&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;text&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;text&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;lt;Text Content&amp;gt;&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">},&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">{&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;tag&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;a&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;text&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;lt;Text Content&amp;gt;&amp;#34;&lt;/span>&lt;span class="p">,&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="nt">&amp;#34;href&amp;#34;&lt;/span>&lt;span class="p">:&lt;/span> &lt;span class="s2">&amp;#34;&amp;lt;URL&amp;gt;&amp;#34;&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="p">}&lt;/span>
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>curl&lt;/p></description></item><item><title>WSA ADB 命令</title><link>https://www.jhwiki.com/note/wsa-adb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/wsa-adb/</guid><description>&lt;h1 id="windows-subsystem-for-android-adb-命令">
+## Lark
+
+> [https://open.larksuite.com/document/](https://open.larksuite.com/document/uAjLw4CM/ukTMukTMukTM/bot-v3/use-custom-bots-in-a-group)
+
+URL
+
+```
+https://open.larksuite.com/open-apis/bot/v2/hook/{token}
+```
+
+head
+
+```
+Content-Type: application/json
+```
+
+body
+
+*text*
+
+``` json
+{
+ "msg_type":"text",
+ "content":{
+ "text":"&lt;Message Content>"
+ }
+}
+```
+
+*rich text*
+
+``` json
+{
+ "msg_type": "post",
+ "content": {
+ "post": {
+ "zh-CN": {
+ "title": "&lt;Title>",
+ "content": [
+ [
+ {
+ "tag": "text",
+ "text": "&lt;Text Content>"
+ },
+ {
+ "tag": "a",
+ "text": "&lt;Text Content>",
+ "href": "&lt;URL>"
+ }
+ ]
+ ]
+ }
+ }
+ }
+}
+```
+
+curl
+
+``` console
+curl -X POST -H "Content-Type: application/json" \
+ -d '{"msg_type":"text","content":{"text":"&lt;Message Content>"}}' \
+ ​https://open.larksuite.com/open-apis/bot/v2/hook/{token}​ 
+```
+&lt;/div>
+
+
+
+&lt;input type="radio" class="toggle" name="tabs-0" id="tabs-0-2" />
+&lt;label for="tabs-0-2">Dingtalk&lt;/label>
+&lt;div class="book-tabs-content markdown-inner">
+
+## Dingtalk
+
+> https://www.dingtalk.com/qidian/help-detail-20781541.html
+
+URL
+
+```
+https://oapi.dingtalk.com/robot/send?access_token={token}
+```
+
+head
+
+```
+Content-Type: application/json;charset=utf-8
+```
+
+body
+
+``` json
+{
+ "msgtype":"text",
+ "text":{
+ "content":"Message Content"
+ }
+}
+```
+&lt;/div>
+
+
+&lt;/div></description></item><item><title>WSA ADB 命令</title><link>https://www.jhwiki.com/note/wsa-adb/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/wsa-adb/</guid><description>&lt;h1 id="windows-subsystem-for-android-adb-命令">
  Windows Subsystem for Android ADB 命令
  &lt;a class="anchor" href="#windows-subsystem-for-android-adb-%e5%91%bd%e4%bb%a4">#&lt;/a>
 &lt;/h1>
@@ -629,7 +701,7 @@ If you have understood all these instructions, write this exact reply &amp;#34;C
 
 
 
-&lt;p class="mermaid">
+&lt;pre class="mermaid">
 gantt
  title 招投标时间轴
  dateFormat DDD
@@ -655,7 +727,34 @@ gantt
  截止日前撤回投标文件5日内退还保证金，不退利息	:a3, 020, 5d
  投标截止时间/开标时间	:crit, milestone, a6, after c1, 0d
  截止日后撤回投标文件，可以不退保证金	:milestone, a4, 021, 2d
-&lt;/p></description></item><item><title>使用 Hugo 搭建个人 Wiki</title><link>https://www.jhwiki.com/note/build-a-wiki-with-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/build-a-wiki-with-hugo/</guid><description>&lt;h1 id="heading">
+&lt;/pre>
+
+&lt;pre tabindex="0">&lt;code class="language-mermaid" data-lang="mermaid">gantt
+ title 招投标时间轴
+ dateFormat DDD
+ axisFormat %j
+ section Bidding
+ 招标文件出售时间≥5日	:b1, 001, 4d
+ 可澄清、修改招标文件	:b2, 001, 4d
+ 保留≥15日 可顺延	:active, b3, after b2, 15d
+ 投标截止时间/开标时间	:crit, milestone, c1, after b3, 0d
+ 招标人收到评标报告	:milestone, d1, 22, 0d
+ 公示≥5日	:d2, after d1, 5d
+ 确定中标人	:milestone, d3, after d2, 0d
+ 15日内报行政监督部门	:d4, after d3, 10d
+ 发出中标通知书	:milestone, d5, after d4, 0d
+ 30日内缴纳10%履约保证金	:d6, after d5, 10d
+ 签订合同	:milestone, d7, after d6, 0d
+ 5日内退还投标保证金及利息	:d8, after d7, 5d
+ 投标/投标保证金有效期90日	:active, d9, after c1, 26d
+ section Tendering
+ 编制投标文件时间≥20日	:a1, 001, 19d
+ 可修改、撤回投标文件	:done, a2, 001, 19d
+ 提出异议10日前	:a7, 001, 9d
+ 截止日前撤回投标文件5日内退还保证金，不退利息	:a3, 020, 5d
+ 投标截止时间/开标时间	:crit, milestone, a6, after c1, 0d
+ 截止日后撤回投标文件，可以不退保证金	:milestone, a4, 021, 2d
+&lt;/code>&lt;/pre></description></item><item><title>使用 Hugo 搭建个人 Wiki</title><link>https://www.jhwiki.com/note/build-a-wiki-with-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/build-a-wiki-with-hugo/</guid><description>&lt;h1 id="heading">
  
  &lt;a class="anchor" href="#heading">#&lt;/a>
 &lt;/h1></description></item><item><title>使用 Hugo 搭建个人博客</title><link>https://www.jhwiki.com/note/build-a-blog-with-hugo/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/note/build-a-blog-with-hugo/</guid><description>&lt;h1 id="使用-hugo-搭建个人博客">
