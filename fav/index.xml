@@ -677,8 +677,34 @@
  &lt;/tbody>
 &lt;/table>
 &lt;br />
-&lt;p>
- &lt;a href="https://www.jhwiki.com/lioil">lioil&lt;/a>&lt;/p></description></item><item><title>冲浪</title><link>https://www.jhwiki.com/fav/surf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/fav/surf/</guid><description>&lt;h2 id="信息">
+&lt;a href="https://www.jhwiki.com/lioil" target="_blank" rel="noopener" class="book-btn">lioil&lt;/a>
+
+&lt;style type="text/css">
+.markdown table tr th {
+ padding: 0 !important;
+ background: none !important;
+}
+
+.markdown table tr td:first-child {
+ padding: 0 0 0 .5rem !important;
+}
+
+.markdown table tr td:nth-child(2) {
+ width: 40%;
+ padding: .5rem .5rem .5rem .3rem;
+}
+
+.markdown table tr td:nth-child(3) {
+ width: 60%;
+}
+
+.markdown table tr td:first-child img {
+ max-width: 22px;
+ max-height: 22px;
+ margin: 0 auto;
+ vertical-align: middle;
+}
+&lt;/style></description></item><item><title>冲浪</title><link>https://www.jhwiki.com/fav/surf/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/fav/surf/</guid><description>&lt;h2 id="信息">
  信息
  &lt;a class="anchor" href="#%e4%bf%a1%e6%81%af">#&lt;/a>
 &lt;/h2>
