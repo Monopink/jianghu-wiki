@@ -790,7 +790,7 @@
  &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/theinitium.com">&lt;/td>
  &lt;td>
  &lt;a href="https://theinitium.com" target="_blank" rel="noopener">端傳媒&lt;/a>&lt;/td>
- &lt;td>深度独立中文媒体 部分付费&lt;/td>
+ &lt;td>独立深度中文媒体 部分付费&lt;/td>
  &lt;/tr>
  &lt;tr>
  &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/www.wainao.me/">&lt;/td>
@@ -2770,6 +2770,16 @@
  &lt;use href="#w-icon"/>
 &lt;/svg>&lt;/td>
  &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/www.bcuninstaller.com">&lt;/td>
+ &lt;td>
+ &lt;a href="https://www.bcuninstaller.com/" target="_blank" rel="noopener">BC Uninstaller&lt;/a>&lt;span class="oldline">｜&lt;/span>
+ &lt;a href="https://github.com/Klocman/Bulk-Crap-Uninstaller" target="_blank" rel="noopener">GitHub&lt;/a>&lt;/td>
+ &lt;td>软件卸载工具&lt;/td>
+ &lt;td>&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.5 42.5" class="fill-font-color" width="32px" aria-label="Windows">
+ &lt;use href="#w-icon"/>
+&lt;/svg>&lt;/td>
+ &lt;/tr>
  &lt;/tbody>
 &lt;/table>
 &lt;h2 id="工具">
@@ -2863,9 +2873,16 @@
  &lt;tr>
  &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/greasyfork.org">&lt;/td>
  &lt;td>
- &lt;a href="https://greasyfork.org/en/scripts/397993-all-search-%E5%85%A8%E6%90%9C-%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E5%BF%AB%E6%8D%B7%E8%B7%B3%E8%BD%AC-%E6%94%AF%E6%8C%81%E4%BB%BB%E6%84%8F%E7%BD%91%E7%AB%99%E5%B1%95%E7%A4%BA" target="_blank" rel="noopener">all-search&lt;/a>&lt;span class="oldline">｜&lt;/span>
+ &lt;a href="https://greasyfork.org/en/scripts/397993-all-search-%E5%85%A8%E6%90%9C-%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E5%BF%AB%E6%8D%B7%E8%B7%B9%E8%BD%AC-%E6%94%AF%E6%8C%81%E4%BB%BB%E6%84%8F%E7%BD%91%E7%AB%99%E5%B1%95%E7%A4%BA" target="_blank" rel="noopener">all-search&lt;/a>&lt;span class="oldline">｜&lt;/span>
  &lt;a href="https://github.com/all-search/all-search" target="_blank" rel="noopener">GitHub&lt;/a>&lt;/td>
  &lt;td>顶部搜索引擎快捷跳转&lt;/td>
+ &lt;td>N/A&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/greasyfork.org">&lt;/td>
+ &lt;td>
+ &lt;a href="https://greasyfork.org/en/scripts/487825-html5%E5%BF%AB%E9%80%9F%E9%8D%B5hotkeys" target="_blank" rel="noopener">HTML5 快捷键&lt;/a>&lt;/td>
+ &lt;td>视频快捷键&lt;/td>
  &lt;td>N/A&lt;/td>
  &lt;/tr>
  &lt;/tbody>
