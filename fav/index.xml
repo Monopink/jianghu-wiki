@@ -2901,9 +2901,130 @@
  浏览器扩展
  &lt;a class="anchor" href="#%e6%b5%8f%e8%a7%88%e5%99%a8%e6%89%a9%e5%b1%95">#&lt;/a>
 &lt;/h2>
-&lt;p>| | | | |
-| &lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/github.com"> | 
- &lt;a href="https://github.com/get-artab/artab" target="_blank" rel="noopener">Airtab&lt;/a> | 新标签页随机一副艺术作品 | N/A |&lt;/p></description></item><item><title>云与建站</title><link>https://www.jhwiki.com/fav/srvc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/fav/srvc/</guid><description>&lt;h2 id="云">
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/github.com">&lt;/td>
+ &lt;td>
+ &lt;a href="https://github.com/get-artab/artab" target="_blank" rel="noopener">Airtab&lt;/a>&lt;/td>
+ &lt;td>新标签页随机一副艺术作品&lt;/td>
+ &lt;td>N/A&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="油猴脚本">
+ 油猴脚本
+ &lt;a class="anchor" href="#%e6%b2%b9%e7%8c%b4%e8%84%9a%e6%9c%ac">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/greasyfork.org">&lt;/td>
+ &lt;td>
+ &lt;a href="https://greasyfork.org/en/scripts/456311-%E6%90%9C%E7%B4%A2%E5%8A%A9%E6%89%8B" target="_blank" rel="noopener">搜索助手&lt;/a>&lt;/td>
+ &lt;td>左侧悬浮按钮快速切换搜索引擎&lt;/td>
+ &lt;td>N/A&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/greasyfork.org">&lt;/td>
+ &lt;td>
+ &lt;a href="https://greasyfork.org/en/scripts/397993-all-search-%E5%85%A8%E6%90%9C-%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E%E5%BF%AB%E6%8D%B7%E8%B7%B9%E8%BD%AC-%E6%94%AF%E6%8C%81%E4%BB%BB%E6%84%8F%E7%BD%91%E7%AB%99%E5%B1%95%E7%A4%BA" target="_blank" rel="noopener">all-search&lt;/a>&lt;span class="oldline">｜&lt;/span>
+ &lt;a href="https://github.com/all-search/all-search" target="_blank" rel="noopener">GitHub&lt;/a>&lt;/td>
+ &lt;td>顶部搜索引擎快捷跳转&lt;/td>
+ &lt;td>N/A&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/greasyfork.org">&lt;/td>
+ &lt;td>
+ &lt;a href="https://greasyfork.org/en/scripts/487825-html5%E5%BF%AB%E9%80%9F%E9%8D%B5hotkeys" target="_blank" rel="noopener">HTML5 快捷键&lt;/a>&lt;/td>
+ &lt;td>视频快捷键&lt;/td>
+ &lt;td>N/A&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="geek">
+ Geek
+ &lt;a class="anchor" href="#geek">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/tabby.sh">&lt;/td>
+ &lt;td>
+ &lt;a href="https://tabby.sh/" target="_blank" rel="noopener">Tabby&lt;/a>&lt;span class="oldline">｜&lt;/span>
+ &lt;a href="https://github.com/Eugeny/tabby/" target="_blank" rel="noopener">Github&lt;/a>&lt;/td>
+ &lt;td>精美的开源终端 XShell 的替代品&lt;/td>
+ &lt;td>&lt;svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 42.5 42.5" class="fill-font-color" width="32px" aria-label="Linux">
+ &lt;use href="#l-icon"/>
+&lt;/svg>&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;style type="text/css">
+.markdown table:nth-of-type(n+2) tr th {
+ padding: 0 !important;
+ background: none !important;
+}
+
+.markdown table:nth-of-type(n+2) tr td:first-child {
+ padding: 0 0 0 .5rem !important;
+ text-align: center;
+}
+
+.markdown table:nth-of-type(n+2) tr td:nth-child(2) {
+ width: 34%;
+ padding: .5rem .5rem .5rem .3rem;
+}
+
+.markdown table:nth-of-type(n+2) tr td:nth-child(3) {
+ width: 47%;
+}
+
+.markdown table:nth-of-type(n+2) tr td:nth-child(4) {
+ width: 19%;
+ min-width: 3rem;
+ padding: 0 .5rem 0 0 !important;
+}
+
+.markdown table tr td:first-child img,
+.markdown table tr td:first-child svg {
+ max-width: 22px;
+ max-height: 22px;
+ margin: 0 auto;
+ vertical-align: middle;
+}
+
+.markdown table tr td:nth-child(4) svg {
+ max-width: 22px;
+ max-height: 22px;
+ margin: 0 auto;
+ vertical-align: middle;
+}
+&lt;/style></description></item><item><title>云与建站</title><link>https://www.jhwiki.com/fav/srvc/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/fav/srvc/</guid><description>&lt;h2 id="云">
  云
  &lt;a class="anchor" href="#%e4%ba%91">#&lt;/a>
 &lt;/h2>
