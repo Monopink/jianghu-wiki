@@ -1881,94 +1881,6 @@
  margin: 0 auto;
  vertical-align: middle;
 }
-&lt;/style></description></item><item><title>RSS</title><link>https://www.jhwiki.com/fav/rss/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/fav/rss/</guid><description>&lt;blockquote>
-&lt;p>RSS 代表着最初的互联网精神。&lt;/p>
-&lt;/blockquote>
-&lt;h2 id="阅读">
- 阅读
- &lt;a class="anchor" href="#%e9%98%85%e8%af%bb">#&lt;/a>
-&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: center">&lt;/th>
- &lt;th>&lt;/th>
- &lt;th>&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/www.inoreader.com">&lt;/td>
- &lt;td>
- &lt;a href="https://www.inoreader.com/" target="_blank" rel="noopener">Inoreader&lt;/a>&lt;/td>
- &lt;td>在线 RSS 阅读器&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/feedly.com">&lt;/td>
- &lt;td>
- &lt;a href="https://feedly.com/" target="_blank" rel="noopener">Feedly&lt;/a>&lt;/td>
- &lt;td>在线 RSS 阅读器&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/theoldreader.com">&lt;/td>
- &lt;td>
- &lt;a href="https://theoldreader.com" target="_blank" rel="noopener">The Old Reader&lt;/a>&lt;/td>
- &lt;td>在线 RSS 阅读器&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;h2 id="工具">
- 工具
- &lt;a class="anchor" href="#%e5%b7%a5%e5%85%b7">#&lt;/a>
-&lt;/h2>
-&lt;table>
- &lt;thead>
- &lt;tr>
- &lt;th style="text-align: center">&lt;/th>
- &lt;th>&lt;/th>
- &lt;th>&lt;/th>
- &lt;/tr>
- &lt;/thead>
- &lt;tbody>
- &lt;tr>
- &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/rsshub.app">&lt;/td>
- &lt;td>
- &lt;a href="https://docs.rsshub.app/" target="_blank" rel="noopener">RSSHub&lt;/a>&lt;/td>
- &lt;td>开源RSS生成器，包含众多订阅源&lt;/td>
- &lt;/tr>
- &lt;tr>
- &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/feeddd.org">&lt;/td>
- &lt;td>
- &lt;a href="https://feeddd.org/feeds" target="_blank" rel="noopener">Feeddd&lt;/a>&lt;/td>
- &lt;td>免费自由的微信公众号订阅源&lt;/td>
- &lt;/tr>
- &lt;/tbody>
-&lt;/table>
-&lt;style type="text/css">
-.markdown table tr th {
- padding: 0 !important;
- background: none !important;
-}
-
-.markdown table tr td:first-child {
- padding: 0 0 0 .5rem !important;
-}
-
-.markdown table tr td:nth-child(2) {
- width: 40%;
- padding: .5rem .5rem .5rem .3rem;
-}
-
-.markdown table tr td:nth-child(3) {
- width: 60%;
-}
-
-.markdown table tr td:first-child img {
- max-width: 22px;
- max-height: 22px;
- margin: 0 auto;
- vertical-align: middle;
-}
 &lt;/style></description></item><item><title>隐私</title><link>https://www.jhwiki.com/fav/priv/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/fav/priv/</guid><description>&lt;h2 id="了解">
  了解
  &lt;a class="anchor" href="#%e4%ba%86%e8%a7%a3">#&lt;/a>
@@ -2026,6 +1938,94 @@
  &lt;td>
  &lt;a href="https://www.sharklasers.com/" target="_blank" rel="noopener">SharkLasers&lt;/a>&lt;/td>
  &lt;td>临时邮箱&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;style type="text/css">
+.markdown table tr th {
+ padding: 0 !important;
+ background: none !important;
+}
+
+.markdown table tr td:first-child {
+ padding: 0 0 0 .5rem !important;
+}
+
+.markdown table tr td:nth-child(2) {
+ width: 40%;
+ padding: .5rem .5rem .5rem .3rem;
+}
+
+.markdown table tr td:nth-child(3) {
+ width: 60%;
+}
+
+.markdown table tr td:first-child img {
+ max-width: 22px;
+ max-height: 22px;
+ margin: 0 auto;
+ vertical-align: middle;
+}
+&lt;/style></description></item><item><title>阅读</title><link>https://www.jhwiki.com/fav/read/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://www.jhwiki.com/fav/read/</guid><description>&lt;blockquote>
+&lt;p>RSS 代表着最初的互联网精神。&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="阅读">
+ 阅读
+ &lt;a class="anchor" href="#%e9%98%85%e8%af%bb">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/www.inoreader.com">&lt;/td>
+ &lt;td>
+ &lt;a href="https://www.inoreader.com/" target="_blank" rel="noopener">Inoreader&lt;/a>&lt;/td>
+ &lt;td>在线 RSS 阅读器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/feedly.com">&lt;/td>
+ &lt;td>
+ &lt;a href="https://feedly.com/" target="_blank" rel="noopener">Feedly&lt;/a>&lt;/td>
+ &lt;td>在线 RSS 阅读器&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/theoldreader.com">&lt;/td>
+ &lt;td>
+ &lt;a href="https://theoldreader.com" target="_blank" rel="noopener">The Old Reader&lt;/a>&lt;/td>
+ &lt;td>在线 RSS 阅读器&lt;/td>
+ &lt;/tr>
+ &lt;/tbody>
+&lt;/table>
+&lt;h2 id="订阅">
+ 订阅
+ &lt;a class="anchor" href="#%e8%ae%a2%e9%98%85">#&lt;/a>
+&lt;/h2>
+&lt;table>
+ &lt;thead>
+ &lt;tr>
+ &lt;th style="text-align: center">&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;th>&lt;/th>
+ &lt;/tr>
+ &lt;/thead>
+ &lt;tbody>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/rsshub.app">&lt;/td>
+ &lt;td>
+ &lt;a href="https://docs.rsshub.app/" target="_blank" rel="noopener">RSSHub&lt;/a>&lt;/td>
+ &lt;td>开源RSS生成器，包含众多订阅源&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/feeddd.org">&lt;/td>
+ &lt;td>
+ &lt;a href="https://feeddd.org/feeds" target="_blank" rel="noopener">Feeddd&lt;/a>&lt;/td>
+ &lt;td>免费自由的微信公众号订阅源&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
