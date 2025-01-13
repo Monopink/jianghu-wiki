@@ -4022,6 +4022,12 @@ start &amp;#34;&amp;#34; &amp;#34;C:\&amp;#34;Program Files (x86)&amp;#34;\Tence
  &lt;/thead>
  &lt;tbody>
  &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/lmarena.ai">&lt;/td>
+ &lt;td>
+ &lt;a href="https://lmarena.ai/?leaderboard" target="_blank" rel="noopener">Chatbot Arena&lt;/a>&lt;/td>
+ &lt;td>对话 AI 排行&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/poe.com">&lt;/td>
  &lt;td>
  &lt;a href="https://poe.com/" target="_blank" rel="noopener">Poe&lt;/a>&lt;/td>
@@ -4699,8 +4705,14 @@ start &amp;#34;&amp;#34; &amp;#34;C:\&amp;#34;Program Files (x86)&amp;#34;\Tence
  &lt;tr>
  &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/html.zone">&lt;/td>
  &lt;td>
- &lt;a href="https://html.zone/ip/" target="_blank" rel="noopener">I KNOW&lt;/a>&lt;/td>
+ &lt;a href="https://html.zone/ip/" target="_blank" rel="noopener">本机 IP 查询&lt;/a>&lt;/td>
  &lt;td>本机访问不同网站的 IP 查询&lt;/td>
+ &lt;/tr>
+ &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/ip.sy">&lt;/td>
+ &lt;td>
+ &lt;a href="https://ip.sy/" target="_blank" rel="noopener">IP溯源&lt;/a>&lt;/td>
+ &lt;td>IP 位置查询&lt;/td>
  &lt;/tr>
  &lt;/tbody>
 &lt;/table>
