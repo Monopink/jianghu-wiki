@@ -2116,6 +2116,12 @@
  &lt;td>本机访问不同网站的 IP 查询&lt;/td>
  &lt;/tr>
  &lt;tr>
+ &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/ip.zerosla.net">&lt;/td>
+ &lt;td>
+ &lt;a href="https://ip.zerosla.net/" target="_blank" rel="noopener">ip.zerosla.net&lt;/a>&lt;/td>
+ &lt;td>当前 IP 信息查询&lt;/td>
+ &lt;/tr>
+ &lt;tr>
  &lt;td style="text-align: center">&lt;img loading="lazy" width="32px" alt="💔" src="https://favicon.im/ip.sy">&lt;/td>
  &lt;td>
  &lt;a href="https://ip.sy/" target="_blank" rel="noopener">IP溯源&lt;/a>&lt;/td>
